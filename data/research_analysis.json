@@ -1,0 +1,2588 @@
+{
+  "phase": "Phase 4 — Research Analysis",
+  "disclaimer": "Frequencies in this analysis describe this interim public-evidence corpus only. They are not prevalence among Google Photos users.",
+  "share_label": "Share of this interim classified public-evidence corpus",
+  "input": {
+    "classified_record_count": 22,
+    "raw_record_count": 24,
+    "uncertain_record_ids": [
+      "REC_015",
+      "REC_023"
+    ],
+    "classified_record_ids": [
+      "REC_001",
+      "REC_002",
+      "REC_003",
+      "REC_004",
+      "REC_005",
+      "REC_006",
+      "REC_007",
+      "REC_008",
+      "REC_009",
+      "REC_010",
+      "REC_011",
+      "REC_012",
+      "REC_013",
+      "REC_014",
+      "REC_016",
+      "REC_017",
+      "REC_018",
+      "REC_019",
+      "REC_020",
+      "REC_021",
+      "REC_022",
+      "REC_024"
+    ],
+    "source_distribution": {
+      "Reddit": 14,
+      "Google Photos Community": 8
+    },
+    "evidence_strength_distribution": {
+      "High": 6,
+      "Low": 8,
+      "Medium": 8
+    },
+    "human_review_count": 14
+  },
+  "failure_stages": [
+    {
+      "failure_stage": "F1 — Recall Gap",
+      "observed": true,
+      "record_count": 1,
+      "share": {
+        "count": 1,
+        "total": 22,
+        "percentage_one_decimal": 4.5,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "1 of 22 (4.5%)"
+      },
+      "evidence_strength_mix": {
+        "Low": 1
+      },
+      "source_mix": {
+        "Reddit": 1
+      },
+      "human_review_count": 1,
+      "supporting_record_ids": [
+        "REC_003"
+      ]
+    },
+    {
+      "failure_stage": "F2 — Expression Gap",
+      "observed": false,
+      "record_count": 0,
+      "share": {
+        "count": 0,
+        "total": 22,
+        "percentage_one_decimal": 0.0,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "0 of 22 (0.0%)"
+      },
+      "evidence_strength_mix": {},
+      "source_mix": {},
+      "human_review_count": 0,
+      "supporting_record_ids": []
+    },
+    {
+      "failure_stage": "F3 — Interpretation Gap",
+      "observed": true,
+      "record_count": 3,
+      "share": {
+        "count": 3,
+        "total": 22,
+        "percentage_one_decimal": 13.6,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "3 of 22 (13.6%)"
+      },
+      "evidence_strength_mix": {
+        "Medium": 3
+      },
+      "source_mix": {
+        "Reddit": 2,
+        "Google Photos Community": 1
+      },
+      "human_review_count": 0,
+      "supporting_record_ids": [
+        "REC_005",
+        "REC_017",
+        "REC_018"
+      ]
+    },
+    {
+      "failure_stage": "F4 — Candidate Gap",
+      "observed": true,
+      "record_count": 1,
+      "share": {
+        "count": 1,
+        "total": 22,
+        "percentage_one_decimal": 4.5,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "1 of 22 (4.5%)"
+      },
+      "evidence_strength_mix": {
+        "High": 1
+      },
+      "source_mix": {
+        "Reddit": 1
+      },
+      "human_review_count": 0,
+      "supporting_record_ids": [
+        "REC_001"
+      ]
+    },
+    {
+      "failure_stage": "F5 — Recognition Gap",
+      "observed": true,
+      "record_count": 1,
+      "share": {
+        "count": 1,
+        "total": 22,
+        "percentage_one_decimal": 4.5,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "1 of 22 (4.5%)"
+      },
+      "evidence_strength_mix": {
+        "Medium": 1
+      },
+      "source_mix": {
+        "Reddit": 1
+      },
+      "human_review_count": 0,
+      "supporting_record_ids": [
+        "REC_004"
+      ]
+    },
+    {
+      "failure_stage": "F6 — Refinement Gap",
+      "observed": false,
+      "record_count": 0,
+      "share": {
+        "count": 0,
+        "total": 22,
+        "percentage_one_decimal": 0.0,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "0 of 22 (0.0%)"
+      },
+      "evidence_strength_mix": {},
+      "source_mix": {},
+      "human_review_count": 0,
+      "supporting_record_ids": []
+    },
+    {
+      "failure_stage": "F7 — Coverage / Indexing Gap",
+      "observed": true,
+      "record_count": 2,
+      "share": {
+        "count": 2,
+        "total": 22,
+        "percentage_one_decimal": 9.1,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "2 of 22 (9.1%)"
+      },
+      "evidence_strength_mix": {
+        "High": 2
+      },
+      "source_mix": {
+        "Google Photos Community": 2
+      },
+      "human_review_count": 0,
+      "supporting_record_ids": [
+        "REC_019",
+        "REC_024"
+      ]
+    },
+    {
+      "failure_stage": "F8 — Unknown / Insufficient Evidence",
+      "observed": true,
+      "record_count": 14,
+      "share": {
+        "count": 14,
+        "total": 22,
+        "percentage_one_decimal": 63.6,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "14 of 22 (63.6%)"
+      },
+      "evidence_strength_mix": {
+        "Low": 7,
+        "Medium": 4,
+        "High": 3
+      },
+      "source_mix": {
+        "Reddit": 9,
+        "Google Photos Community": 5
+      },
+      "human_review_count": 13,
+      "supporting_record_ids": [
+        "REC_002",
+        "REC_006",
+        "REC_007",
+        "REC_008",
+        "REC_009",
+        "REC_010",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_014",
+        "REC_016",
+        "REC_020",
+        "REC_021",
+        "REC_022"
+      ]
+    }
+  ],
+  "failure_stage_count_check": {
+    "sum_of_stage_counts": 22,
+    "classified_record_count": 22,
+    "matches": true
+  },
+  "behaviours": [
+    {
+      "behaviour": "Query or search attempt described in search_or_browse_behavior",
+      "explicitly_supported_count": 15,
+      "explicitly_supported_record_ids": [
+        "REC_001",
+        "REC_005",
+        "REC_006",
+        "REC_007",
+        "REC_008",
+        "REC_009",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_014",
+        "REC_017",
+        "REC_018",
+        "REC_019",
+        "REC_020",
+        "REC_024"
+      ],
+      "explicitly_contradicted_count": null,
+      "explicitly_contradicted_record_ids": [],
+      "not_established_count": 2,
+      "not_established_record_ids": [
+        "REC_003",
+        "REC_016"
+      ],
+      "note": "Supported only when the saved behaviour text describes a search or query. Unknown means the behaviour was not established, not that no search occurred.",
+      "small_count_note": ""
+    },
+    {
+      "behaviour": "Query reformulation described in reformulation_behavior",
+      "explicitly_supported_count": 2,
+      "explicitly_supported_record_ids": [
+        "REC_012",
+        "REC_017"
+      ],
+      "explicitly_contradicted_count": null,
+      "explicitly_contradicted_record_ids": [],
+      "not_established_count": 20,
+      "not_established_record_ids": [
+        "REC_001",
+        "REC_002",
+        "REC_003",
+        "REC_004",
+        "REC_005",
+        "REC_006",
+        "REC_007",
+        "REC_008",
+        "REC_009",
+        "REC_010",
+        "REC_011",
+        "REC_013",
+        "REC_014",
+        "REC_016",
+        "REC_018",
+        "REC_019",
+        "REC_020",
+        "REC_021",
+        "REC_022",
+        "REC_024"
+      ],
+      "note": "A substantive reformulation field is required. Unknown is not counted as no reformulation.",
+      "small_count_note": "Directional signal only — small evidence count."
+    },
+    {
+      "behaviour": "Manual browsing described in manual_browsing_behavior",
+      "explicitly_supported_count": 7,
+      "explicitly_supported_record_ids": [
+        "REC_001",
+        "REC_002",
+        "REC_004",
+        "REC_010",
+        "REC_014",
+        "REC_019",
+        "REC_022"
+      ],
+      "explicitly_contradicted_count": null,
+      "explicitly_contradicted_record_ids": [],
+      "not_established_count": 15,
+      "not_established_record_ids": [
+        "REC_003",
+        "REC_005",
+        "REC_006",
+        "REC_007",
+        "REC_008",
+        "REC_009",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_016",
+        "REC_017",
+        "REC_018",
+        "REC_020",
+        "REC_021",
+        "REC_024"
+      ],
+      "note": "Counted from the saved manual-browsing field. A missing description is Unknown, not evidence that browsing did not happen.",
+      "small_count_note": ""
+    },
+    {
+      "behaviour": "manual_scroll_signal",
+      "explicitly_supported_count": 5,
+      "explicitly_supported_record_ids": [
+        "REC_001",
+        "REC_002",
+        "REC_004",
+        "REC_010",
+        "REC_022"
+      ],
+      "explicitly_contradicted_count": 0,
+      "explicitly_contradicted_record_ids": [],
+      "not_established_count": 17,
+      "not_established_record_ids": [
+        "REC_003",
+        "REC_005",
+        "REC_006",
+        "REC_007",
+        "REC_008",
+        "REC_009",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_014",
+        "REC_016",
+        "REC_017",
+        "REC_018",
+        "REC_019",
+        "REC_020",
+        "REC_021",
+        "REC_024"
+      ],
+      "note": "Yes, No, and Unknown are kept separate. Unknown is not converted to No.",
+      "small_count_note": ""
+    },
+    {
+      "behaviour": "candidate_overload_signal",
+      "explicitly_supported_count": 2,
+      "explicitly_supported_record_ids": [
+        "REC_004",
+        "REC_017"
+      ],
+      "explicitly_contradicted_count": 3,
+      "explicitly_contradicted_record_ids": [
+        "REC_006",
+        "REC_009",
+        "REC_011"
+      ],
+      "not_established_count": 17,
+      "not_established_record_ids": [
+        "REC_001",
+        "REC_002",
+        "REC_003",
+        "REC_005",
+        "REC_007",
+        "REC_008",
+        "REC_010",
+        "REC_012",
+        "REC_013",
+        "REC_014",
+        "REC_016",
+        "REC_018",
+        "REC_019",
+        "REC_020",
+        "REC_021",
+        "REC_022",
+        "REC_024"
+      ],
+      "note": "Yes, No, and Unknown are kept separate. Unknown is not converted to No.",
+      "small_count_note": "Directional signal only — small evidence count."
+    },
+    {
+      "behaviour": "recognition_difficulty_signal",
+      "explicitly_supported_count": 1,
+      "explicitly_supported_record_ids": [
+        "REC_004"
+      ],
+      "explicitly_contradicted_count": 0,
+      "explicitly_contradicted_record_ids": [],
+      "not_established_count": 21,
+      "not_established_record_ids": [
+        "REC_001",
+        "REC_002",
+        "REC_003",
+        "REC_005",
+        "REC_006",
+        "REC_007",
+        "REC_008",
+        "REC_009",
+        "REC_010",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_014",
+        "REC_016",
+        "REC_017",
+        "REC_018",
+        "REC_019",
+        "REC_020",
+        "REC_021",
+        "REC_022",
+        "REC_024"
+      ],
+      "note": "Yes means the saved signal says recognition was difficult. Unknown means it was not established.",
+      "small_count_note": "Directional signal only — small evidence count."
+    },
+    {
+      "behaviour": "query_difficulty_signal",
+      "explicitly_supported_count": 0,
+      "explicitly_supported_record_ids": [],
+      "explicitly_contradicted_count": 1,
+      "explicitly_contradicted_record_ids": [
+        "REC_020"
+      ],
+      "not_established_count": 21,
+      "not_established_record_ids": [
+        "REC_001",
+        "REC_002",
+        "REC_003",
+        "REC_004",
+        "REC_005",
+        "REC_006",
+        "REC_007",
+        "REC_008",
+        "REC_009",
+        "REC_010",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_014",
+        "REC_016",
+        "REC_017",
+        "REC_018",
+        "REC_019",
+        "REC_021",
+        "REC_022",
+        "REC_024"
+      ],
+      "note": "Yes, No, and Unknown are kept separate. One explicit No does not describe the rest of the corpus.",
+      "small_count_note": "Directional signal only — small evidence count."
+    },
+    {
+      "behaviour": "Remembered clues stated",
+      "explicitly_supported_count": 17,
+      "explicitly_supported_record_ids": [
+        "REC_001",
+        "REC_003",
+        "REC_005",
+        "REC_006",
+        "REC_007",
+        "REC_008",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_014",
+        "REC_016",
+        "REC_017",
+        "REC_018",
+        "REC_019",
+        "REC_020",
+        "REC_022",
+        "REC_024"
+      ],
+      "explicitly_contradicted_count": null,
+      "explicitly_contradicted_record_ids": [],
+      "not_established_count": 5,
+      "not_established_record_ids": [
+        "REC_002",
+        "REC_004",
+        "REC_009",
+        "REC_010",
+        "REC_021"
+      ],
+      "note": "Counted when remembered_clues is a substantive saved value.",
+      "small_count_note": ""
+    },
+    {
+      "behaviour": "Forgotten or uncertain clues stated",
+      "explicitly_supported_count": 1,
+      "explicitly_supported_record_ids": [
+        "REC_003"
+      ],
+      "explicitly_contradicted_count": null,
+      "explicitly_contradicted_record_ids": [],
+      "not_established_count": 21,
+      "not_established_record_ids": [
+        "REC_001",
+        "REC_002",
+        "REC_004",
+        "REC_005",
+        "REC_006",
+        "REC_007",
+        "REC_008",
+        "REC_009",
+        "REC_010",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_014",
+        "REC_016",
+        "REC_017",
+        "REC_018",
+        "REC_019",
+        "REC_020",
+        "REC_021",
+        "REC_022",
+        "REC_024"
+      ],
+      "note": "Counted only when missing_or_forgotten_clues explicitly states something forgotten. Unknown means the post did not establish a forgotten clue.",
+      "small_count_note": "Directional signal only — small evidence count."
+    },
+    {
+      "behaviour": "Workaround stated",
+      "explicitly_supported_count": 5,
+      "explicitly_supported_record_ids": [
+        "REC_001",
+        "REC_006",
+        "REC_014",
+        "REC_019",
+        "REC_022"
+      ],
+      "explicitly_contradicted_count": null,
+      "explicitly_contradicted_record_ids": [],
+      "not_established_count": 17,
+      "not_established_record_ids": [
+        "REC_002",
+        "REC_003",
+        "REC_004",
+        "REC_005",
+        "REC_007",
+        "REC_008",
+        "REC_009",
+        "REC_010",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_016",
+        "REC_017",
+        "REC_018",
+        "REC_020",
+        "REC_021",
+        "REC_024"
+      ],
+      "note": "Counted when the saved workaround field describes a behaviour. Unknown is not treated as no workaround.",
+      "small_count_note": ""
+    },
+    {
+      "behaviour": "Human review required",
+      "explicitly_supported_count": 14,
+      "explicitly_supported_record_ids": [
+        "REC_002",
+        "REC_003",
+        "REC_006",
+        "REC_007",
+        "REC_008",
+        "REC_009",
+        "REC_010",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_014",
+        "REC_020",
+        "REC_021",
+        "REC_022"
+      ],
+      "explicitly_contradicted_count": null,
+      "explicitly_contradicted_record_ids": [],
+      "not_established_count": 8,
+      "not_established_record_ids": [
+        "REC_001",
+        "REC_004",
+        "REC_005",
+        "REC_016",
+        "REC_017",
+        "REC_018",
+        "REC_019",
+        "REC_024"
+      ],
+      "note": "needs_human_review remains the Phase 3 flag. Records without that flag are not evidence that the classification is certain.",
+      "small_count_note": ""
+    },
+    {
+      "behaviour": "Retrieval outcome: Found",
+      "explicitly_supported_count": 2,
+      "explicitly_supported_record_ids": [
+        "REC_019",
+        "REC_022"
+      ],
+      "explicitly_contradicted_count": null,
+      "explicitly_contradicted_record_ids": [],
+      "not_established_count": 0,
+      "not_established_record_ids": [],
+      "note": "Outcome values are kept distinct. Unknown is not counted as Not Found or Gave Up. Gave Up is used only when that outcome was saved.",
+      "small_count_note": "Directional signal only — small evidence count."
+    },
+    {
+      "behaviour": "Retrieval outcome: Not Found",
+      "explicitly_supported_count": 7,
+      "explicitly_supported_record_ids": [
+        "REC_003",
+        "REC_009",
+        "REC_011",
+        "REC_017",
+        "REC_018",
+        "REC_020",
+        "REC_024"
+      ],
+      "explicitly_contradicted_count": null,
+      "explicitly_contradicted_record_ids": [],
+      "not_established_count": 0,
+      "not_established_record_ids": [],
+      "note": "Outcome values are kept distinct. Unknown is not counted as Not Found or Gave Up. Gave Up is used only when that outcome was saved.",
+      "small_count_note": ""
+    },
+    {
+      "behaviour": "Retrieval outcome: Partially Found",
+      "explicitly_supported_count": 3,
+      "explicitly_supported_record_ids": [
+        "REC_006",
+        "REC_012",
+        "REC_013"
+      ],
+      "explicitly_contradicted_count": null,
+      "explicitly_contradicted_record_ids": [],
+      "not_established_count": 0,
+      "not_established_record_ids": [],
+      "note": "Outcome values are kept distinct. Unknown is not counted as Not Found or Gave Up. Gave Up is used only when that outcome was saved.",
+      "small_count_note": "Directional signal only — small evidence count."
+    },
+    {
+      "behaviour": "Retrieval outcome: Gave Up",
+      "explicitly_supported_count": 0,
+      "explicitly_supported_record_ids": [],
+      "explicitly_contradicted_count": null,
+      "explicitly_contradicted_record_ids": [],
+      "not_established_count": 0,
+      "not_established_record_ids": [],
+      "note": "Outcome values are kept distinct. Unknown is not counted as Not Found or Gave Up. Gave Up is used only when that outcome was saved.",
+      "small_count_note": "Directional signal only — small evidence count."
+    },
+    {
+      "behaviour": "Retrieval outcome: Unknown",
+      "explicitly_supported_count": 10,
+      "explicitly_supported_record_ids": [
+        "REC_001",
+        "REC_002",
+        "REC_004",
+        "REC_005",
+        "REC_007",
+        "REC_008",
+        "REC_010",
+        "REC_014",
+        "REC_016",
+        "REC_021"
+      ],
+      "explicitly_contradicted_count": null,
+      "explicitly_contradicted_record_ids": [],
+      "not_established_count": 12,
+      "not_established_record_ids": [
+        "REC_003",
+        "REC_006",
+        "REC_009",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_017",
+        "REC_018",
+        "REC_019",
+        "REC_020",
+        "REC_022",
+        "REC_024"
+      ],
+      "note": "Outcome values are kept distinct. Unknown is not counted as Not Found or Gave Up. Gave Up is used only when that outcome was saved.",
+      "small_count_note": ""
+    }
+  ],
+  "memory_clues": {
+    "schema_note": "The Phase 3 schema stores free-text remembered_clues and missing_or_forgotten_clues. It does not store a clue-type enum. Comparison labels are substring matches on those saved fields. They are not a new taxonomy and they are not claimed to be the most common memory cues among all users.",
+    "remembered_clues_stated_count": 17,
+    "remembered_clues_unknown_count": 5,
+    "forgotten_clues_stated_count": 1,
+    "forgotten_clues_unknown_count": 21,
+    "saved_clue_phrases": [
+      {
+        "record_id": "REC_001",
+        "field": "remembered_clues",
+        "saved_clue_text": "Grandma; cat; a remembered time frame",
+        "primary_failure_stage": "F4 — Candidate Gap",
+        "evidence_strength": "High",
+        "source": "Reddit"
+      },
+      {
+        "record_id": "REC_003",
+        "field": "remembered_clues",
+        "saved_clue_text": "Recent photo contains a distinct item; looking for same item in older photo",
+        "primary_failure_stage": "F1 — Recall Gap",
+        "evidence_strength": "Low",
+        "source": "Reddit"
+      },
+      {
+        "record_id": "REC_005",
+        "field": "remembered_clues",
+        "saved_clue_text": "bike",
+        "primary_failure_stage": "F3 — Interpretation Gap",
+        "evidence_strength": "Medium",
+        "source": "Reddit"
+      },
+      {
+        "record_id": "REC_006",
+        "field": "remembered_clues",
+        "saved_clue_text": "dog",
+        "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+        "evidence_strength": "Medium",
+        "source": "Reddit"
+      },
+      {
+        "record_id": "REC_007",
+        "field": "remembered_clues",
+        "saved_clue_text": "Keywords in filenames",
+        "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+        "evidence_strength": "Low",
+        "source": "Reddit"
+      },
+      {
+        "record_id": "REC_008",
+        "field": "remembered_clues",
+        "saved_clue_text": "years gone by",
+        "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+        "evidence_strength": "Low",
+        "source": "Reddit"
+      },
+      {
+        "record_id": "REC_011",
+        "field": "remembered_clues",
+        "saved_clue_text": "Sunfish",
+        "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+        "evidence_strength": "High",
+        "source": "Reddit"
+      },
+      {
+        "record_id": "REC_012",
+        "field": "remembered_clues",
+        "saved_clue_text": "yellow truck",
+        "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+        "evidence_strength": "High",
+        "source": "Reddit"
+      },
+      {
+        "record_id": "REC_013",
+        "field": "remembered_clues",
+        "saved_clue_text": "dog, blowtorch",
+        "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+        "evidence_strength": "High",
+        "source": "Reddit"
+      },
+      {
+        "record_id": "REC_014",
+        "field": "remembered_clues",
+        "saved_clue_text": "Keywords that formerly worked",
+        "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+        "evidence_strength": "Medium",
+        "source": "Reddit"
+      },
+      {
+        "record_id": "REC_016",
+        "field": "remembered_clues",
+        "saved_clue_text": "train museum visit",
+        "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+        "evidence_strength": "Low",
+        "source": "Google Photos Community"
+      },
+      {
+        "record_id": "REC_017",
+        "field": "remembered_clues",
+        "saved_clue_text": "Exact filename",
+        "primary_failure_stage": "F3 — Interpretation Gap",
+        "evidence_strength": "Medium",
+        "source": "Reddit"
+      },
+      {
+        "record_id": "REC_018",
+        "field": "remembered_clues",
+        "saved_clue_text": "date (today)",
+        "primary_failure_stage": "F3 — Interpretation Gap",
+        "evidence_strength": "Medium",
+        "source": "Google Photos Community"
+      },
+      {
+        "record_id": "REC_019",
+        "field": "remembered_clues",
+        "saved_clue_text": "Exact phrase tag in info field",
+        "primary_failure_stage": "F7 — Coverage / Indexing Gap",
+        "evidence_strength": "High",
+        "source": "Google Photos Community"
+      },
+      {
+        "record_id": "REC_020",
+        "field": "remembered_clues",
+        "saved_clue_text": "yellow sticky note",
+        "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+        "evidence_strength": "Medium",
+        "source": "Google Photos Community"
+      },
+      {
+        "record_id": "REC_022",
+        "field": "remembered_clues",
+        "saved_clue_text": "date/time of the event",
+        "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+        "evidence_strength": "Medium",
+        "source": "Reddit"
+      },
+      {
+        "record_id": "REC_024",
+        "field": "remembered_clues",
+        "saved_clue_text": "description words",
+        "primary_failure_stage": "F7 — Coverage / Indexing Gap",
+        "evidence_strength": "High",
+        "source": "Google Photos Community"
+      },
+      {
+        "record_id": "REC_003",
+        "field": "missing_or_forgotten_clues",
+        "saved_clue_text": "Date when the older photo was taken",
+        "primary_failure_stage": "F1 — Recall Gap",
+        "evidence_strength": "Low",
+        "source": "Reddit"
+      }
+    ],
+    "comparison_groups": [
+      {
+        "comparison_label": "People",
+        "match_terms": [
+          "grandma"
+        ],
+        "record_count": 1,
+        "share": {
+          "count": 1,
+          "total": 22,
+          "percentage_one_decimal": 4.5,
+          "label": "Share of this interim classified public-evidence corpus",
+          "display": "1 of 22 (4.5%)"
+        },
+        "supporting_record_ids": [
+          "REC_001"
+        ],
+        "matches": [
+          {
+            "record_id": "REC_001",
+            "matched_terms": [
+              "grandma"
+            ],
+            "remembered_clues": "Grandma; cat; a remembered time frame",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          }
+        ],
+        "evidence_strength_mix": {
+          "High": 1
+        },
+        "failure_stage_mix": {
+          "F4 — Candidate Gap": 1
+        },
+        "small_count_note": "Directional signal only — small evidence count.",
+        "absence_note": "Matches are substring hits on saved clue fields only."
+      },
+      {
+        "comparison_label": "Objects",
+        "match_terms": [
+          "sticky note",
+          "blowtorch",
+          "sunfish",
+          "truck",
+          "bike",
+          "cat",
+          "dog"
+        ],
+        "record_count": 7,
+        "share": {
+          "count": 7,
+          "total": 22,
+          "percentage_one_decimal": 31.8,
+          "label": "Share of this interim classified public-evidence corpus",
+          "display": "7 of 22 (31.8%)"
+        },
+        "supporting_record_ids": [
+          "REC_001",
+          "REC_005",
+          "REC_006",
+          "REC_011",
+          "REC_012",
+          "REC_013",
+          "REC_020"
+        ],
+        "matches": [
+          {
+            "record_id": "REC_001",
+            "matched_terms": [
+              "cat"
+            ],
+            "remembered_clues": "Grandma; cat; a remembered time frame",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          },
+          {
+            "record_id": "REC_005",
+            "matched_terms": [
+              "bike"
+            ],
+            "remembered_clues": "bike",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          },
+          {
+            "record_id": "REC_006",
+            "matched_terms": [
+              "dog"
+            ],
+            "remembered_clues": "dog",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          },
+          {
+            "record_id": "REC_011",
+            "matched_terms": [
+              "sunfish"
+            ],
+            "remembered_clues": "Sunfish",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          },
+          {
+            "record_id": "REC_012",
+            "matched_terms": [
+              "truck"
+            ],
+            "remembered_clues": "yellow truck",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          },
+          {
+            "record_id": "REC_013",
+            "matched_terms": [
+              "blowtorch",
+              "dog"
+            ],
+            "remembered_clues": "dog, blowtorch",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          },
+          {
+            "record_id": "REC_020",
+            "matched_terms": [
+              "sticky note"
+            ],
+            "remembered_clues": "yellow sticky note",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          }
+        ],
+        "evidence_strength_mix": {
+          "High": 4,
+          "Medium": 3
+        },
+        "failure_stage_mix": {
+          "F4 — Candidate Gap": 1,
+          "F3 — Interpretation Gap": 1,
+          "F8 — Unknown / Insufficient Evidence": 5
+        },
+        "small_count_note": "",
+        "absence_note": "Matches are substring hits on saved clue fields only."
+      },
+      {
+        "comparison_label": "Place or location",
+        "match_terms": [
+          "museum"
+        ],
+        "record_count": 1,
+        "share": {
+          "count": 1,
+          "total": 22,
+          "percentage_one_decimal": 4.5,
+          "label": "Share of this interim classified public-evidence corpus",
+          "display": "1 of 22 (4.5%)"
+        },
+        "supporting_record_ids": [
+          "REC_016"
+        ],
+        "matches": [
+          {
+            "record_id": "REC_016",
+            "matched_terms": [
+              "museum"
+            ],
+            "remembered_clues": "train museum visit",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          }
+        ],
+        "evidence_strength_mix": {
+          "Low": 1
+        },
+        "failure_stage_mix": {
+          "F8 — Unknown / Insufficient Evidence": 1
+        },
+        "small_count_note": "Directional signal only — small evidence count.",
+        "absence_note": "Matches are substring hits on saved clue fields only."
+      },
+      {
+        "comparison_label": "Event or context",
+        "match_terms": [
+          "visit",
+          "event"
+        ],
+        "record_count": 2,
+        "share": {
+          "count": 2,
+          "total": 22,
+          "percentage_one_decimal": 9.1,
+          "label": "Share of this interim classified public-evidence corpus",
+          "display": "2 of 22 (9.1%)"
+        },
+        "supporting_record_ids": [
+          "REC_016",
+          "REC_022"
+        ],
+        "matches": [
+          {
+            "record_id": "REC_016",
+            "matched_terms": [
+              "visit"
+            ],
+            "remembered_clues": "train museum visit",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          },
+          {
+            "record_id": "REC_022",
+            "matched_terms": [
+              "event"
+            ],
+            "remembered_clues": "date/time of the event",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          }
+        ],
+        "evidence_strength_mix": {
+          "Low": 1,
+          "Medium": 1
+        },
+        "failure_stage_mix": {
+          "F8 — Unknown / Insufficient Evidence": 2
+        },
+        "small_count_note": "Directional signal only — small evidence count.",
+        "absence_note": "Matches are substring hits on saved clue fields only."
+      },
+      {
+        "comparison_label": "Approximate or relative time",
+        "match_terms": [
+          "time frame",
+          "years gone by",
+          "years"
+        ],
+        "record_count": 2,
+        "share": {
+          "count": 2,
+          "total": 22,
+          "percentage_one_decimal": 9.1,
+          "label": "Share of this interim classified public-evidence corpus",
+          "display": "2 of 22 (9.1%)"
+        },
+        "supporting_record_ids": [
+          "REC_001",
+          "REC_008"
+        ],
+        "matches": [
+          {
+            "record_id": "REC_001",
+            "matched_terms": [
+              "time frame"
+            ],
+            "remembered_clues": "Grandma; cat; a remembered time frame",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          },
+          {
+            "record_id": "REC_008",
+            "matched_terms": [
+              "years gone by",
+              "years"
+            ],
+            "remembered_clues": "years gone by",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          }
+        ],
+        "evidence_strength_mix": {
+          "High": 1,
+          "Low": 1
+        },
+        "failure_stage_mix": {
+          "F4 — Candidate Gap": 1,
+          "F8 — Unknown / Insufficient Evidence": 1
+        },
+        "small_count_note": "Directional signal only — small evidence count.",
+        "absence_note": "Matches are substring hits on saved clue fields only."
+      },
+      {
+        "comparison_label": "Exact or stated date",
+        "match_terms": [
+          "date"
+        ],
+        "record_count": 3,
+        "share": {
+          "count": 3,
+          "total": 22,
+          "percentage_one_decimal": 13.6,
+          "label": "Share of this interim classified public-evidence corpus",
+          "display": "3 of 22 (13.6%)"
+        },
+        "supporting_record_ids": [
+          "REC_003",
+          "REC_018",
+          "REC_022"
+        ],
+        "matches": [
+          {
+            "record_id": "REC_003",
+            "matched_terms": [
+              "date"
+            ],
+            "remembered_clues": "Recent photo contains a distinct item; looking for same item in older photo",
+            "missing_or_forgotten_clues": "Date when the older photo was taken",
+            "matched_in_remembered_clues": false,
+            "matched_in_forgotten_clues": true
+          },
+          {
+            "record_id": "REC_018",
+            "matched_terms": [
+              "date"
+            ],
+            "remembered_clues": "date (today)",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          },
+          {
+            "record_id": "REC_022",
+            "matched_terms": [
+              "date"
+            ],
+            "remembered_clues": "date/time of the event",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          }
+        ],
+        "evidence_strength_mix": {
+          "Low": 1,
+          "Medium": 2
+        },
+        "failure_stage_mix": {
+          "F1 — Recall Gap": 1,
+          "F3 — Interpretation Gap": 1,
+          "F8 — Unknown / Insufficient Evidence": 1
+        },
+        "small_count_note": "Directional signal only — small evidence count.",
+        "absence_note": "Matches are substring hits on saved clue fields only."
+      },
+      {
+        "comparison_label": "Visible text or added words",
+        "match_terms": [
+          "filename",
+          "description",
+          "phrase",
+          "keyword"
+        ],
+        "record_count": 5,
+        "share": {
+          "count": 5,
+          "total": 22,
+          "percentage_one_decimal": 22.7,
+          "label": "Share of this interim classified public-evidence corpus",
+          "display": "5 of 22 (22.7%)"
+        },
+        "supporting_record_ids": [
+          "REC_007",
+          "REC_014",
+          "REC_017",
+          "REC_019",
+          "REC_024"
+        ],
+        "matches": [
+          {
+            "record_id": "REC_007",
+            "matched_terms": [
+              "filename",
+              "keyword"
+            ],
+            "remembered_clues": "Keywords in filenames",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          },
+          {
+            "record_id": "REC_014",
+            "matched_terms": [
+              "keyword"
+            ],
+            "remembered_clues": "Keywords that formerly worked",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          },
+          {
+            "record_id": "REC_017",
+            "matched_terms": [
+              "filename"
+            ],
+            "remembered_clues": "Exact filename",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          },
+          {
+            "record_id": "REC_019",
+            "matched_terms": [
+              "phrase"
+            ],
+            "remembered_clues": "Exact phrase tag in info field",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          },
+          {
+            "record_id": "REC_024",
+            "matched_terms": [
+              "description"
+            ],
+            "remembered_clues": "description words",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          }
+        ],
+        "evidence_strength_mix": {
+          "Low": 1,
+          "Medium": 2,
+          "High": 2
+        },
+        "failure_stage_mix": {
+          "F8 — Unknown / Insufficient Evidence": 2,
+          "F3 — Interpretation Gap": 1,
+          "F7 — Coverage / Indexing Gap": 2
+        },
+        "small_count_note": "",
+        "absence_note": "Matches are substring hits on saved clue fields only."
+      },
+      {
+        "comparison_label": "Visual characteristics",
+        "match_terms": [
+          "yellow",
+          "close-up"
+        ],
+        "record_count": 2,
+        "share": {
+          "count": 2,
+          "total": 22,
+          "percentage_one_decimal": 9.1,
+          "label": "Share of this interim classified public-evidence corpus",
+          "display": "2 of 22 (9.1%)"
+        },
+        "supporting_record_ids": [
+          "REC_012",
+          "REC_020"
+        ],
+        "matches": [
+          {
+            "record_id": "REC_012",
+            "matched_terms": [
+              "yellow"
+            ],
+            "remembered_clues": "yellow truck",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          },
+          {
+            "record_id": "REC_020",
+            "matched_terms": [
+              "yellow"
+            ],
+            "remembered_clues": "yellow sticky note",
+            "missing_or_forgotten_clues": "Unknown",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": false
+          }
+        ],
+        "evidence_strength_mix": {
+          "High": 1,
+          "Medium": 1
+        },
+        "failure_stage_mix": {
+          "F8 — Unknown / Insufficient Evidence": 2
+        },
+        "small_count_note": "Directional signal only — small evidence count.",
+        "absence_note": "Matches are substring hits on saved clue fields only."
+      },
+      {
+        "comparison_label": "Sequence or relationship to another memory",
+        "match_terms": [
+          "older photo",
+          "recent photo",
+          "same item",
+          "same event"
+        ],
+        "record_count": 1,
+        "share": {
+          "count": 1,
+          "total": 22,
+          "percentage_one_decimal": 4.5,
+          "label": "Share of this interim classified public-evidence corpus",
+          "display": "1 of 22 (4.5%)"
+        },
+        "supporting_record_ids": [
+          "REC_003"
+        ],
+        "matches": [
+          {
+            "record_id": "REC_003",
+            "matched_terms": [
+              "older photo",
+              "recent photo",
+              "same item"
+            ],
+            "remembered_clues": "Recent photo contains a distinct item; looking for same item in older photo",
+            "missing_or_forgotten_clues": "Date when the older photo was taken",
+            "matched_in_remembered_clues": true,
+            "matched_in_forgotten_clues": true
+          }
+        ],
+        "evidence_strength_mix": {
+          "Low": 1
+        },
+        "failure_stage_mix": {
+          "F1 — Recall Gap": 1
+        },
+        "small_count_note": "Directional signal only — small evidence count.",
+        "absence_note": "Matches are substring hits on saved clue fields only."
+      }
+    ]
+  },
+  "cross_patterns": [
+    {
+      "question": "Which failure stages coexist with an explicit manual-scroll signal?",
+      "observation": "manual_scroll_signal is Yes on the records listed. Stages are the audited primary stage for those same records.",
+      "record_count": 5,
+      "share": {
+        "count": 5,
+        "total": 22,
+        "percentage_one_decimal": 22.7,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "5 of 22 (22.7%)"
+      },
+      "supporting_record_ids": [
+        "REC_001",
+        "REC_002",
+        "REC_004",
+        "REC_010",
+        "REC_022"
+      ],
+      "source_mix": {
+        "Reddit": 4,
+        "Google Photos Community": 1
+      },
+      "evidence_strength_mix": {
+        "High": 1,
+        "Low": 2,
+        "Medium": 2
+      },
+      "failure_stage_mix": {
+        "F4 — Candidate Gap": 1,
+        "F8 — Unknown / Insufficient Evidence": 3,
+        "F5 — Recognition Gap": 1
+      },
+      "what_this_does_not_establish": "A Yes scroll signal does not show that scrolling caused the failure, or that people who have no signal did not scroll.",
+      "small_count_note": ""
+    },
+    {
+      "question": "Which failure stages coexist with a described manual-browsing behaviour?",
+      "observation": "manual_browsing_behavior contains a saved description on these records.",
+      "record_count": 7,
+      "share": {
+        "count": 7,
+        "total": 22,
+        "percentage_one_decimal": 31.8,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "7 of 22 (31.8%)"
+      },
+      "supporting_record_ids": [
+        "REC_001",
+        "REC_002",
+        "REC_004",
+        "REC_010",
+        "REC_014",
+        "REC_019",
+        "REC_022"
+      ],
+      "source_mix": {
+        "Reddit": 5,
+        "Google Photos Community": 2
+      },
+      "evidence_strength_mix": {
+        "High": 2,
+        "Low": 2,
+        "Medium": 3
+      },
+      "failure_stage_mix": {
+        "F4 — Candidate Gap": 1,
+        "F8 — Unknown / Insufficient Evidence": 4,
+        "F5 — Recognition Gap": 1,
+        "F7 — Coverage / Indexing Gap": 1
+      },
+      "what_this_does_not_establish": "Described browsing is not evidence that search was impossible, and Unknown browsing fields are not evidence that browsing did not occur.",
+      "small_count_note": ""
+    },
+    {
+      "question": "Which remembered clues appear where the saved outcome is Not Found or Partially Found?",
+      "observation": "Both a substantive remembered_clues value and an explicit Not Found or Partially Found outcome are present.",
+      "record_count": 9,
+      "share": {
+        "count": 9,
+        "total": 22,
+        "percentage_one_decimal": 40.9,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "9 of 22 (40.9%)"
+      },
+      "supporting_record_ids": [
+        "REC_003",
+        "REC_006",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_017",
+        "REC_018",
+        "REC_020",
+        "REC_024"
+      ],
+      "source_mix": {
+        "Reddit": 6,
+        "Google Photos Community": 3
+      },
+      "evidence_strength_mix": {
+        "Low": 1,
+        "Medium": 4,
+        "High": 4
+      },
+      "failure_stage_mix": {
+        "F1 — Recall Gap": 1,
+        "F8 — Unknown / Insufficient Evidence": 5,
+        "F3 — Interpretation Gap": 2,
+        "F7 — Coverage / Indexing Gap": 1
+      },
+      "what_this_does_not_establish": "This does not show that the clue caused the miss, or that retrieval failed where the outcome is Unknown.",
+      "small_count_note": ""
+    },
+    {
+      "question": "Where do the saved classifications describe query reformulation?",
+      "observation": "reformulation_behavior is substantive only for the listed records.",
+      "record_count": 2,
+      "share": {
+        "count": 2,
+        "total": 22,
+        "percentage_one_decimal": 9.1,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "2 of 22 (9.1%)"
+      },
+      "supporting_record_ids": [
+        "REC_012",
+        "REC_017"
+      ],
+      "source_mix": {
+        "Reddit": 2
+      },
+      "evidence_strength_mix": {
+        "High": 1,
+        "Medium": 1
+      },
+      "failure_stage_mix": {
+        "F8 — Unknown / Insufficient Evidence": 1,
+        "F3 — Interpretation Gap": 1
+      },
+      "what_this_does_not_establish": "Two or fewer reformulation descriptions cannot support a reformulation pattern beyond those records.",
+      "small_count_note": "Directional signal only — small evidence count."
+    },
+    {
+      "question": "Where does a described search have an explicit not-found or partial outcome?",
+      "observation": "The saved behaviour describes a search, and retrieval_outcome is Not Found or Partially Found.",
+      "record_count": 9,
+      "share": {
+        "count": 9,
+        "total": 22,
+        "percentage_one_decimal": 40.9,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "9 of 22 (40.9%)"
+      },
+      "supporting_record_ids": [
+        "REC_006",
+        "REC_009",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_017",
+        "REC_018",
+        "REC_020",
+        "REC_024"
+      ],
+      "source_mix": {
+        "Reddit": 5,
+        "Google Photos Community": 4
+      },
+      "evidence_strength_mix": {
+        "Medium": 4,
+        "Low": 1,
+        "High": 4
+      },
+      "failure_stage_mix": {
+        "F8 — Unknown / Insufficient Evidence": 6,
+        "F3 — Interpretation Gap": 2,
+        "F7 — Coverage / Indexing Gap": 1
+      },
+      "what_this_does_not_establish": "A not-found or partial outcome does not establish an indexing failure, a candidate gap, or an interpretation gap.",
+      "small_count_note": ""
+    },
+    {
+      "question": "Where are candidates surfaced but recognition marked difficult?",
+      "observation": "Included only when the audited stage is F5 or recognition_difficulty_signal is Yes.",
+      "record_count": 1,
+      "share": {
+        "count": 1,
+        "total": 22,
+        "percentage_one_decimal": 4.5,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "1 of 22 (4.5%)"
+      },
+      "supporting_record_ids": [
+        "REC_004"
+      ],
+      "source_mix": {
+        "Reddit": 1
+      },
+      "evidence_strength_mix": {
+        "Medium": 1
+      },
+      "failure_stage_mix": {
+        "F5 — Recognition Gap": 1
+      },
+      "what_this_does_not_establish": "A single recognition record is not a corpus pattern. Other records do not become recognition gaps by default.",
+      "small_count_note": "Directional signal only — small evidence count."
+    },
+    {
+      "question": "Where is the failure mechanism classified as ambiguous?",
+      "observation": "The audited primary stage is F8 — Unknown / Insufficient Evidence.",
+      "record_count": 14,
+      "share": {
+        "count": 14,
+        "total": 22,
+        "percentage_one_decimal": 63.6,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "14 of 22 (63.6%)"
+      },
+      "supporting_record_ids": [
+        "REC_002",
+        "REC_006",
+        "REC_007",
+        "REC_008",
+        "REC_009",
+        "REC_010",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_014",
+        "REC_016",
+        "REC_020",
+        "REC_021",
+        "REC_022"
+      ],
+      "source_mix": {
+        "Reddit": 9,
+        "Google Photos Community": 5
+      },
+      "evidence_strength_mix": {
+        "Low": 7,
+        "Medium": 4,
+        "High": 3
+      },
+      "failure_stage_mix": {
+        "F8 — Unknown / Insufficient Evidence": 14
+      },
+      "what_this_does_not_establish": "F8 means the stage is not established. It does not mean retrieval succeeded, and it does not identify a cause.",
+      "small_count_note": ""
+    },
+    {
+      "question": "Are stated photo types associated with particular failure stages?",
+      "observation": "Photo type is counted only when photo_type is substantive. Unknown photo types are excluded from this intersection.",
+      "record_count": 6,
+      "share": {
+        "count": 6,
+        "total": 22,
+        "percentage_one_decimal": 27.3,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "6 of 22 (27.3%)"
+      },
+      "supporting_record_ids": [
+        "REC_006",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_019",
+        "REC_020"
+      ],
+      "source_mix": {
+        "Reddit": 4,
+        "Google Photos Community": 2
+      },
+      "evidence_strength_mix": {
+        "Medium": 2,
+        "High": 4
+      },
+      "failure_stage_mix": {
+        "F8 — Unknown / Insufficient Evidence": 5,
+        "F7 — Coverage / Indexing Gap": 1
+      },
+      "what_this_does_not_establish": "Most photo types in this corpus occur once. A repeated type is a directional signal, not an association among users.",
+      "small_count_note": "",
+      "photo_type_by_stage": [
+        {
+          "record_id": "REC_006",
+          "photo_type": "dog",
+          "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+          "evidence_strength": "Medium"
+        },
+        {
+          "record_id": "REC_011",
+          "photo_type": "Close-up of Sunfish",
+          "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+          "evidence_strength": "High"
+        },
+        {
+          "record_id": "REC_012",
+          "photo_type": "Truck",
+          "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+          "evidence_strength": "High"
+        },
+        {
+          "record_id": "REC_013",
+          "photo_type": "dog, blowtorch",
+          "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+          "evidence_strength": "High"
+        },
+        {
+          "record_id": "REC_019",
+          "photo_type": "Video",
+          "primary_failure_stage": "F7 — Coverage / Indexing Gap",
+          "evidence_strength": "High"
+        },
+        {
+          "record_id": "REC_020",
+          "photo_type": "Sticky note",
+          "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+          "evidence_strength": "Medium"
+        }
+      ]
+    }
+  ],
+  "pattern_cards": [
+    {
+      "pattern_name": "A described search ends not found or only partly found",
+      "what_was_observed": "The saved search behaviour and the saved outcome both say the search missed photos or returned only some of them.",
+      "supporting_record_count": 9,
+      "supporting_record_ids": [
+        "REC_006",
+        "REC_009",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_017",
+        "REC_018",
+        "REC_020",
+        "REC_024"
+      ],
+      "share": {
+        "count": 9,
+        "total": 22,
+        "percentage_one_decimal": 40.9,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "9 of 22 (40.9%)"
+      },
+      "source_mix": {
+        "Reddit": 5,
+        "Google Photos Community": 4
+      },
+      "evidence_strength_mix": {
+        "Medium": 4,
+        "Low": 1,
+        "High": 4
+      },
+      "failure_stage_mix": {
+        "F8 — Unknown / Insufficient Evidence": 6,
+        "F3 — Interpretation Gap": 2,
+        "F7 — Coverage / Indexing Gap": 1
+      },
+      "example_excerpts": [
+        {
+          "record_id": "REC_011",
+          "source": "Reddit",
+          "source_url": "https://www.reddit.com/r/googlephotos/comments/1rtnigs/why_has_the_search_function_stopped_working/",
+          "evidence_strength": "High",
+          "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+          "excerpt": "I am the family photo archivalist and have over half a million photos spanning 60 years uploaded to Google Photos. So, I can't just scroll through to find what I want. Search for 'Sunfish' found nothing even though I…"
+        },
+        {
+          "record_id": "REC_012",
+          "source": "Reddit",
+          "source_url": "https://www.reddit.com/r/googlephotos/comments/1rihxp2/sorry_if_this_has_been_asked_a_hundred_times_but/",
+          "evidence_strength": "High",
+          "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+          "excerpt": "I ask for 'yellow truck' and it finds 2 out of the 10 different days I had taken pictures of yellow trucks. I'll try different phrasing like 'pickup truck' and it'll add a few more trucks but also lose some of the…"
+        }
+      ],
+      "what_the_evidence_supports": "These posts explicitly describe a search whose saved outcome is Not Found or Partially Found.",
+      "what_the_evidence_does_not_establish": "They do not establish why the photo was missing from the results. Most of these records remain F8 after audit.",
+      "confidence": "Medium",
+      "contradictory_or_limiting_evidence": "REC_019 records a search that initially failed and a later find. REC_006 says date search works. REC_022 records a found photo before a later scrolling task. Those records are not in this card.",
+      "small_count_note": ""
+    },
+    {
+      "pattern_name": "Manual scrolling or manual lookup is described",
+      "what_was_observed": "The saved manual-browsing field is substantive, or manual_scroll_signal is Yes.",
+      "supporting_record_count": 7,
+      "supporting_record_ids": [
+        "REC_001",
+        "REC_002",
+        "REC_004",
+        "REC_010",
+        "REC_014",
+        "REC_019",
+        "REC_022"
+      ],
+      "share": {
+        "count": 7,
+        "total": 22,
+        "percentage_one_decimal": 31.8,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "7 of 22 (31.8%)"
+      },
+      "source_mix": {
+        "Reddit": 5,
+        "Google Photos Community": 2
+      },
+      "evidence_strength_mix": {
+        "High": 2,
+        "Low": 2,
+        "Medium": 3
+      },
+      "failure_stage_mix": {
+        "F4 — Candidate Gap": 1,
+        "F8 — Unknown / Insufficient Evidence": 4,
+        "F5 — Recognition Gap": 1,
+        "F7 — Coverage / Indexing Gap": 1
+      },
+      "example_excerpts": [
+        {
+          "record_id": "REC_001",
+          "source": "Reddit",
+          "source_url": "https://www.reddit.com/r/googlephotos/comments/1jbiao1/",
+          "evidence_strength": "High",
+          "primary_failure_stage": "F4 — Candidate Gap",
+          "excerpt": "I wanted to find this photo the other day, and no amount of search parameters found it. I finally had to scroll through years of photos from the time frame that I remember my Grandma having this cat."
+        },
+        {
+          "record_id": "REC_019",
+          "source": "Google Photos Community",
+          "source_url": "https://support.google.com/photos/thread/309151160/i-tagged-the-video-but-when-i-search-using-the-exact-wording-photos-can-t-find-it?hl=en",
+          "evidence_strength": "High",
+          "primary_failure_stage": "F7 — Coverage / Indexing Gap",
+          "excerpt": "I recorded a video, tagged it in the info field for the purpose of being able to look it up later. When I use the exact phrase, Photos isn't able to locate anything. Eventually I'm able to locate it by digging for a…"
+        }
+      ],
+      "what_the_evidence_supports": "These records explicitly describe scrolling, album scanning, or a long manual lookup.",
+      "what_the_evidence_does_not_establish": "They do not establish one shared failure stage. Some lookups follow a failed search, and some are the lookup itself.",
+      "confidence": "Medium",
+      "contradictory_or_limiting_evidence": "REC_004 is an album of more than 1,400 photos, which the audit kept as recognition difficulty. REC_022 describes scrolling after the looked-for photo was already found. Unknown scroll signals were not treated as No.",
+      "small_count_note": ""
+    },
+    {
+      "pattern_name": "Saved clue text names a filename, description, phrase, or tag",
+      "what_was_observed": "remembered_clues contains filename, description, phrase, tag, or a rename wording.",
+      "supporting_record_count": 4,
+      "supporting_record_ids": [
+        "REC_007",
+        "REC_017",
+        "REC_019",
+        "REC_024"
+      ],
+      "share": {
+        "count": 4,
+        "total": 22,
+        "percentage_one_decimal": 18.2,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "4 of 22 (18.2%)"
+      },
+      "source_mix": {
+        "Reddit": 2,
+        "Google Photos Community": 2
+      },
+      "evidence_strength_mix": {
+        "Low": 1,
+        "Medium": 1,
+        "High": 2
+      },
+      "failure_stage_mix": {
+        "F8 — Unknown / Insufficient Evidence": 1,
+        "F3 — Interpretation Gap": 1,
+        "F7 — Coverage / Indexing Gap": 2
+      },
+      "example_excerpts": [
+        {
+          "record_id": "REC_019",
+          "source": "Google Photos Community",
+          "source_url": "https://support.google.com/photos/thread/309151160/i-tagged-the-video-but-when-i-search-using-the-exact-wording-photos-can-t-find-it?hl=en",
+          "evidence_strength": "High",
+          "primary_failure_stage": "F7 — Coverage / Indexing Gap",
+          "excerpt": "I recorded a video, tagged it in the info field for the purpose of being able to look it up later. When I use the exact phrase, Photos isn't able to locate anything. Eventually I'm able to locate it by digging for a…"
+        },
+        {
+          "record_id": "REC_024",
+          "source": "Google Photos Community",
+          "source_url": "https://support.google.com/photos/thread/385905876/unable-to-search-photos-by-description-in-google-photos?hl=en",
+          "evidence_strength": "High",
+          "primary_failure_stage": "F7 — Coverage / Indexing Gap",
+          "excerpt": "I added descriptions to several of my photos, but when I try to search using the words from those descriptions, the photos do not appear in the search results."
+        }
+      ],
+      "what_the_evidence_supports": "These classifications explicitly store a filename, description, phrase, or tag as a clue.",
+      "what_the_evidence_does_not_establish": "They do not establish that metadata was unindexed. The audited stages differ.",
+      "confidence": "Low",
+      "contradictory_or_limiting_evidence": "REC_014 says former keywords now return screenshots and that the photo can still be found manually. Its clue text is 'Keywords that formerly worked', which does not match the filename, description, phrase, or tag terms, so it is not included here.",
+      "small_count_note": "Directional signal only — small evidence count."
+    },
+    {
+      "pattern_name": "The audited stage does not identify a specific mechanism",
+      "what_was_observed": "primary_failure_stage is F8 — Unknown / Insufficient Evidence.",
+      "supporting_record_count": 14,
+      "supporting_record_ids": [
+        "REC_002",
+        "REC_006",
+        "REC_007",
+        "REC_008",
+        "REC_009",
+        "REC_010",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_014",
+        "REC_016",
+        "REC_020",
+        "REC_021",
+        "REC_022"
+      ],
+      "share": {
+        "count": 14,
+        "total": 22,
+        "percentage_one_decimal": 63.6,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "14 of 22 (63.6%)"
+      },
+      "source_mix": {
+        "Reddit": 9,
+        "Google Photos Community": 5
+      },
+      "evidence_strength_mix": {
+        "Low": 7,
+        "Medium": 4,
+        "High": 3
+      },
+      "failure_stage_mix": {
+        "F8 — Unknown / Insufficient Evidence": 14
+      },
+      "example_excerpts": [
+        {
+          "record_id": "REC_011",
+          "source": "Reddit",
+          "source_url": "https://www.reddit.com/r/googlephotos/comments/1rtnigs/why_has_the_search_function_stopped_working/",
+          "evidence_strength": "High",
+          "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+          "excerpt": "I am the family photo archivalist and have over half a million photos spanning 60 years uploaded to Google Photos. So, I can't just scroll through to find what I want. Search for 'Sunfish' found nothing even though I…"
+        },
+        {
+          "record_id": "REC_012",
+          "source": "Reddit",
+          "source_url": "https://www.reddit.com/r/googlephotos/comments/1rihxp2/sorry_if_this_has_been_asked_a_hundred_times_but/",
+          "evidence_strength": "High",
+          "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+          "excerpt": "I ask for 'yellow truck' and it finds 2 out of the 10 different days I had taken pictures of yellow trucks. I'll try different phrasing like 'pickup truck' and it'll add a few more trucks but also lose some of the…"
+        }
+      ],
+      "what_the_evidence_supports": "For these records the audited classification does not support a stage from F1 through F7.",
+      "what_the_evidence_does_not_establish": "F8 does not show that retrieval worked, and it does not show that the cause was indexing, recognition, or any other single stage.",
+      "confidence": "High",
+      "contradictory_or_limiting_evidence": "Eight classified records do have a specific audited stage. Those records are the limiting set for any claim that every post is ambiguous.",
+      "small_count_note": ""
+    },
+    {
+      "pattern_name": "Audited interpretation-gap records",
+      "what_was_observed": "primary_failure_stage remains F3 — Interpretation Gap after the Phase 3 audit.",
+      "supporting_record_count": 3,
+      "supporting_record_ids": [
+        "REC_005",
+        "REC_017",
+        "REC_018"
+      ],
+      "share": {
+        "count": 3,
+        "total": 22,
+        "percentage_one_decimal": 13.6,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "3 of 22 (13.6%)"
+      },
+      "source_mix": {
+        "Reddit": 2,
+        "Google Photos Community": 1
+      },
+      "evidence_strength_mix": {
+        "Medium": 3
+      },
+      "failure_stage_mix": {
+        "F3 — Interpretation Gap": 3
+      },
+      "example_excerpts": [
+        {
+          "record_id": "REC_005",
+          "source": "Reddit",
+          "source_url": "https://www.reddit.com/r/googlephotos/comments/1fa4fg1/what_happened_to_the_search_feature_on_the_app/",
+          "evidence_strength": "Medium",
+          "primary_failure_stage": "F3 — Interpretation Gap",
+          "excerpt": "You could search 'bike' and any photo, screenshot, etc with a bike in it would show up, along with any image with the text 'bike'. Search results are now giving me photos that have nothing to do with the search term."
+        },
+        {
+          "record_id": "REC_017",
+          "source": "Reddit",
+          "source_url": "https://www.reddit.com/r/googlephotos/comments/rd8u2q/how_do_i_search_for_photos_by_exact_filename/",
+          "evidence_strength": "Medium",
+          "primary_failure_stage": "F3 — Interpretation Gap",
+          "excerpt": "I'm trying to find a photo by its exact filename. I tried several options but had no luck; the searches return all the photos taken on that date instead of the exact file."
+        }
+      ],
+      "what_the_evidence_supports": "These three records kept an interpretation stage because the post describes a stated query and results the person treats as the wrong set.",
+      "what_the_evidence_does_not_establish": "Three records do not show that interpretation is the main retrieval problem in this corpus or among Google Photos users.",
+      "confidence": "Low",
+      "contradictory_or_limiting_evidence": "The other 19 classified records are not F3. REC_012 and REC_014 were moved to F8 because interpretation and a candidate gap both remained possible.",
+      "small_count_note": "Directional signal only — small evidence count."
+    },
+    {
+      "pattern_name": "Audited coverage or indexing records",
+      "what_was_observed": "primary_failure_stage remains F7 — Coverage / Indexing Gap after the Phase 3 audit.",
+      "supporting_record_count": 2,
+      "supporting_record_ids": [
+        "REC_019",
+        "REC_024"
+      ],
+      "share": {
+        "count": 2,
+        "total": 22,
+        "percentage_one_decimal": 9.1,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "2 of 22 (9.1%)"
+      },
+      "source_mix": {
+        "Google Photos Community": 2
+      },
+      "evidence_strength_mix": {
+        "High": 2
+      },
+      "failure_stage_mix": {
+        "F7 — Coverage / Indexing Gap": 2
+      },
+      "example_excerpts": [
+        {
+          "record_id": "REC_019",
+          "source": "Google Photos Community",
+          "source_url": "https://support.google.com/photos/thread/309151160/i-tagged-the-video-but-when-i-search-using-the-exact-wording-photos-can-t-find-it?hl=en",
+          "evidence_strength": "High",
+          "primary_failure_stage": "F7 — Coverage / Indexing Gap",
+          "excerpt": "I recorded a video, tagged it in the info field for the purpose of being able to look it up later. When I use the exact phrase, Photos isn't able to locate anything. Eventually I'm able to locate it by digging for a…"
+        },
+        {
+          "record_id": "REC_024",
+          "source": "Google Photos Community",
+          "source_url": "https://support.google.com/photos/thread/385905876/unable-to-search-photos-by-description-in-google-photos?hl=en",
+          "evidence_strength": "High",
+          "primary_failure_stage": "F7 — Coverage / Indexing Gap",
+          "excerpt": "I added descriptions to several of my photos, but when I try to search using the words from those descriptions, the photos do not appear in the search results."
+        }
+      ],
+      "what_the_evidence_supports": "Two records still use F7. Both describe words added to a photo or video that did not bring the item back in search.",
+      "what_the_evidence_does_not_establish": "Two records do not show an indexing failure across the corpus. The audit kept F7 as the closest reading, not as proof of an index defect.",
+      "confidence": "Low",
+      "contradictory_or_limiting_evidence": "Seven earlier F7 labels were changed to F8 because a missing photo, by itself, did not show an indexing failure.",
+      "small_count_note": "Directional signal only — small evidence count."
+    },
+    {
+      "pattern_name": "Explicit found outcome despite remaining friction",
+      "what_was_observed": "retrieval_outcome is Found.",
+      "supporting_record_count": 2,
+      "supporting_record_ids": [
+        "REC_019",
+        "REC_022"
+      ],
+      "share": {
+        "count": 2,
+        "total": 22,
+        "percentage_one_decimal": 9.1,
+        "label": "Share of this interim classified public-evidence corpus",
+        "display": "2 of 22 (9.1%)"
+      },
+      "source_mix": {
+        "Google Photos Community": 1,
+        "Reddit": 1
+      },
+      "evidence_strength_mix": {
+        "High": 1,
+        "Medium": 1
+      },
+      "failure_stage_mix": {
+        "F7 — Coverage / Indexing Gap": 1,
+        "F8 — Unknown / Insufficient Evidence": 1
+      },
+      "example_excerpts": [
+        {
+          "record_id": "REC_019",
+          "source": "Google Photos Community",
+          "source_url": "https://support.google.com/photos/thread/309151160/i-tagged-the-video-but-when-i-search-using-the-exact-wording-photos-can-t-find-it?hl=en",
+          "evidence_strength": "High",
+          "primary_failure_stage": "F7 — Coverage / Indexing Gap",
+          "excerpt": "I recorded a video, tagged it in the info field for the purpose of being able to look it up later. When I use the exact phrase, Photos isn't able to locate anything. Eventually I'm able to locate it by digging for a…"
+        },
+        {
+          "record_id": "REC_022",
+          "source": "Reddit",
+          "source_url": "https://www.reddit.com/r/googlephotos/comments/1hp4jkj/",
+          "evidence_strength": "Medium",
+          "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+          "excerpt": "Once I find a photo that I was looking for, I usually want to browse other photos from that same event. I have to note the date/time, navigate out of search results, and scroll through tens of thousands of photos to the…"
+        }
+      ],
+      "what_the_evidence_supports": "These posts explicitly describe locating the item, while also describing friction before or after that find.",
+      "what_the_evidence_does_not_establish": "A found outcome does not mean retrieval was easy, and it does not describe the records whose outcome is Unknown.",
+      "confidence": "Low",
+      "contradictory_or_limiting_evidence": "Most classified outcomes are Not Found, Partially Found, or Unknown. Found is the exception in this corpus.",
+      "small_count_note": "Directional signal only — small evidence count."
+    }
+  ],
+  "candidate_problem_areas": [
+    {
+      "candidate_problem_area": "A described search does not return the photos the person expects",
+      "evidence_supported_description": "In the supporting records, the saved behaviour describes a search and the saved outcome is Not Found or Partially Found.",
+      "supporting_record_count": 9,
+      "supporting_record_ids": [
+        "REC_006",
+        "REC_009",
+        "REC_011",
+        "REC_012",
+        "REC_013",
+        "REC_017",
+        "REC_018",
+        "REC_020",
+        "REC_024"
+      ],
+      "evidence_strength_profile": {
+        "Medium": 4,
+        "Low": 1,
+        "High": 4
+      },
+      "failure_stage_mix": {
+        "F8 — Unknown / Insufficient Evidence": 6,
+        "F3 — Interpretation Gap": 2,
+        "F7 — Coverage / Indexing Gap": 1
+      },
+      "relevant_observed_behaviours": "Query attempt described; outcome Not Found or Partially Found. Reformulation is described in only a subset.",
+      "user_consequence_visible_in_evidence": "The person reports missing photos, a subset of the expected photos, or results that do not include the looked-for item.",
+      "alternative_explanation": "The photo may be absent from the library, the query may be broader or narrower than the person assumes, or the post may not reveal which retrieval stage failed.",
+      "evidence_gaps": "Most supporting records are F8. The corpus cannot separate interpretation, candidate coverage, and indexing for this group.",
+      "confidence": "Medium",
+      "small_count_note": "",
+      "ranked": false,
+      "selected": false
+    },
+    {
+      "candidate_problem_area": "Locating a remembered photo is described as manual scanning",
+      "evidence_supported_description": "The supporting records have a saved manual-browsing description or an explicit Yes manual-scroll signal.",
+      "supporting_record_count": 7,
+      "supporting_record_ids": [
+        "REC_001",
+        "REC_002",
+        "REC_004",
+        "REC_010",
+        "REC_014",
+        "REC_019",
+        "REC_022"
+      ],
+      "evidence_strength_profile": {
+        "High": 2,
+        "Low": 2,
+        "Medium": 3
+      },
+      "failure_stage_mix": {
+        "F4 — Candidate Gap": 1,
+        "F8 — Unknown / Insufficient Evidence": 4,
+        "F5 — Recognition Gap": 1,
+        "F7 — Coverage / Indexing Gap": 1
+      },
+      "relevant_observed_behaviours": "Manual scrolling, album scanning, or a long manual lookup is described. Some records also describe a search.",
+      "user_consequence_visible_in_evidence": "The person describes scrolling through a long history, a large album, or a long lookup in order to reach the photo or nearby photos.",
+      "alternative_explanation": "Some records may be browse-first rather than a failed search. REC_004 is a large-album scanning problem. REC_022 scrolls after the first photo was found.",
+      "evidence_gaps": "The group mixes F4, F5, F7, and F8. It does not establish that manual scanning is the dominant failure mechanism.",
+      "confidence": "Medium",
+      "small_count_note": "",
+      "ranked": false,
+      "selected": false
+    },
+    {
+      "candidate_problem_area": "A filename, description, phrase, or tag does not bring the item back",
+      "evidence_supported_description": "The saved remembered clue names a filename, description, phrase, or tag.",
+      "supporting_record_count": 4,
+      "supporting_record_ids": [
+        "REC_007",
+        "REC_017",
+        "REC_019",
+        "REC_024"
+      ],
+      "evidence_strength_profile": {
+        "Low": 1,
+        "Medium": 1,
+        "High": 2
+      },
+      "failure_stage_mix": {
+        "F8 — Unknown / Insufficient Evidence": 1,
+        "F3 — Interpretation Gap": 1,
+        "F7 — Coverage / Indexing Gap": 2
+      },
+      "relevant_observed_behaviours": "The person uses an exact filename, added description words, a phrase tag, or filename keywords. Workarounds are not established for every record.",
+      "user_consequence_visible_in_evidence": "Search using those words fails, returns the wrong set, or requires a long manual lookup.",
+      "alternative_explanation": "The words may never have been searchable, the query may be handled as a date or as visible text, or the item may be present and reached another way.",
+      "evidence_gaps": "Only four records match. Their audited stages are F3, F7, and F8, so one technical explanation is not supported.",
+      "confidence": "Low",
+      "small_count_note": "Directional signal only — small evidence count.",
+      "ranked": false,
+      "selected": false
+    }
+  ],
+  "contradictions_and_evidence_gaps": {
+    "title": "Contradictions & Evidence Gaps",
+    "challenges": [
+      {
+        "challenge": "A single failure stage does not dominate this corpus.",
+        "record_count": 14,
+        "supporting_record_ids": [
+          "REC_002",
+          "REC_006",
+          "REC_007",
+          "REC_008",
+          "REC_009",
+          "REC_010",
+          "REC_011",
+          "REC_012",
+          "REC_013",
+          "REC_014",
+          "REC_016",
+          "REC_020",
+          "REC_021",
+          "REC_022"
+        ],
+        "detail": "14 of 22 audited records are F8. That blocks any conclusion that recognition, indexing, or interpretation is the main breakdown."
+      },
+      {
+        "challenge": "Recognition gap is a single-record observation.",
+        "record_count": 1,
+        "supporting_record_ids": [
+          "REC_004"
+        ],
+        "detail": "Only the listed record remains F5. recognition_difficulty_signal is Yes there and is not Yes across the corpus. This does not support treating recognition as the research answer."
+      },
+      {
+        "challenge": "Coverage or indexing remains a two-record reading.",
+        "record_count": 2,
+        "supporting_record_ids": [
+          "REC_019",
+          "REC_024"
+        ],
+        "detail": "REC_019 and REC_024, where present, describe added words that did not surface the item. A user report that search missed a photo does not establish an indexing defect. Directional signal only — small evidence count."
+      },
+      {
+        "challenge": "Some records show the item was found, or could still be found manually.",
+        "record_count": 2,
+        "supporting_record_ids": [
+          "REC_019",
+          "REC_022"
+        ],
+        "detail": "Saved Found outcomes contradict a claim that retrieval always fails in this corpus. REC_014 says the photo can still be found manually while keyword search returns screenshots. Its saved retrieval outcome is Unknown, so that manual find is not counted as a Found outcome."
+      },
+      {
+        "challenge": "Low evidence strength limits how hard the findings can be pressed.",
+        "record_count": 8,
+        "supporting_record_ids": [
+          "REC_002",
+          "REC_003",
+          "REC_007",
+          "REC_008",
+          "REC_009",
+          "REC_010",
+          "REC_016",
+          "REC_021"
+        ],
+        "detail": "These records are short or general. Their stage and behaviour fields should not be pooled with high-strength records as if they were equal proof."
+      },
+      {
+        "challenge": "Human review remains open on a large part of the classified corpus.",
+        "record_count": 14,
+        "supporting_record_ids": [
+          "REC_002",
+          "REC_003",
+          "REC_006",
+          "REC_007",
+          "REC_008",
+          "REC_009",
+          "REC_010",
+          "REC_011",
+          "REC_012",
+          "REC_013",
+          "REC_014",
+          "REC_020",
+          "REC_021",
+          "REC_022"
+        ],
+        "detail": "Review flags mark ambiguity, thin text, or a stage that was safer as F8. They are unresolved, not confirmed causes."
+      },
+      {
+        "challenge": "Many outcomes do not establish whether retrieval failed.",
+        "record_count": 10,
+        "supporting_record_ids": [
+          "REC_001",
+          "REC_002",
+          "REC_004",
+          "REC_005",
+          "REC_007",
+          "REC_008",
+          "REC_010",
+          "REC_014",
+          "REC_016",
+          "REC_021"
+        ],
+        "detail": "retrieval_outcome Unknown was not converted to Not Found or Gave Up."
+      },
+      {
+        "challenge": "An explicit forgotten clue is rare in the saved fields.",
+        "record_count": 1,
+        "supporting_record_ids": [
+          "REC_003"
+        ],
+        "detail": "Only records with a substantive missing_or_forgotten_clues value are listed. Unknown forgotten clues are not evidence that nothing was forgotten."
+      },
+      {
+        "challenge": "Some failure stages were not observed.",
+        "record_count": 0,
+        "supporting_record_ids": [],
+        "detail": "Unobserved stages: F2 — Expression Gap, F6 — Refinement Gap. Absence from this corpus is not evidence those stages do not occur."
+      }
+    ]
+  },
+  "research_limitations": [
+    "The current raw corpus contains 24 records.",
+    "22 records were classified as Relevant and are the Phase 4 analysis input.",
+    "2 records remain Uncertain and outside automatic Phase 3 classification: REC_015, REC_023.",
+    "The classified source mix is limited (Reddit: 14, Google Photos Community: 8).",
+    "Public complaint posts are self-selected.",
+    "Complaint evidence may overrepresent severe or unresolved retrieval experiences.",
+    "This corpus is qualitative and directional.",
+    "Corpus percentages are not population prevalence among Google Photos users.",
+    "Public posts often show what the person tried. They often do not show everything the person remembered before searching.",
+    "A report that a photo did not appear cannot, by itself, establish a cause such as an indexing failure.",
+    "Frequencies in this analysis describe this interim public-evidence corpus only. They are not prevalence among Google Photos users."
+  ],
+  "trace_index": [
+    {
+      "record_id": "REC_001",
+      "source": "Reddit",
+      "date": "2025-03-15",
+      "source_url": "https://www.reddit.com/r/googlephotos/comments/1jbiao1/",
+      "original_text": "I wanted to find this photo the other day, and no amount of search parameters found it. I finally had to scroll through years of photos from the time frame that I remember my Grandma having this cat.",
+      "primary_failure_stage": "F4 — Candidate Gap",
+      "evidence_strength": "High",
+      "retrieval_outcome": "Unknown",
+      "needs_human_review": false
+    },
+    {
+      "record_id": "REC_002",
+      "source": "Reddit",
+      "date": "2025-12-27",
+      "source_url": "https://www.reddit.com/r/googlephotos/comments/1px47il/googleif_youre_listening_your_photos_app_is_a/",
+      "original_text": "If I want to find a photo of something and show it to someone, I have to remember the date I took it and scroll back through the history and get the date right.",
+      "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+      "evidence_strength": "Low",
+      "retrieval_outcome": "Unknown",
+      "needs_human_review": true
+    },
+    {
+      "record_id": "REC_003",
+      "source": "Reddit",
+      "date": "2022-09-22",
+      "source_url": "https://www.reddit.com/r/googlephotos/comments/xl693t/is_there_a_way_to_search_google_photos_using_a/",
+      "original_text": "I have a recent photo that has something very distinct in it. I am trying to find an older photo I have of that same item but I have so many photos I can't find it and I don't remember when I took the photo.",
+      "primary_failure_stage": "F1 — Recall Gap",
+      "evidence_strength": "Low",
+      "retrieval_outcome": "Not Found",
+      "needs_human_review": true
+    },
+    {
+      "record_id": "REC_004",
+      "source": "Reddit",
+      "date": "2026-08-01",
+      "source_url": "https://www.reddit.com/r/googlephotos/comments/1vcu3cs/finding_specific_photo_in_a_large_album/",
+      "original_text": "I have an Album in Google Photos that has more than 1400 pics in it. I can't easily find the pics I need to move around, not when I'm looking thru 1400 pics.",
+      "primary_failure_stage": "F5 — Recognition Gap",
+      "evidence_strength": "Medium",
+      "retrieval_outcome": "Unknown",
+      "needs_human_review": false
+    },
+    {
+      "record_id": "REC_005",
+      "source": "Reddit",
+      "date": "2024-09-06",
+      "source_url": "https://www.reddit.com/r/googlephotos/comments/1fa4fg1/what_happened_to_the_search_feature_on_the_app/",
+      "original_text": "You could search 'bike' and any photo, screenshot, etc with a bike in it would show up, along with any image with the text 'bike'. Search results are now giving me photos that have nothing to do with the search term.",
+      "primary_failure_stage": "F3 — Interpretation Gap",
+      "evidence_strength": "Medium",
+      "retrieval_outcome": "Unknown",
+      "needs_human_review": false
+    },
+    {
+      "record_id": "REC_006",
+      "source": "Reddit",
+      "date": "2026-09-19",
+      "source_url": "https://www.reddit.com/r/googlephotos/comments/1wkh4be/search_function_only_shows_very_few_photos/",
+      "original_text": "When I search for 'dog', only 6 pictures come up even though I am SURE I have more dog photos. Searching by date does work but I really wanted it to work for the keywords.",
+      "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+      "evidence_strength": "Medium",
+      "retrieval_outcome": "Partially Found",
+      "needs_human_review": true
+    },
+    {
+      "record_id": "REC_007",
+      "source": "Reddit",
+      "date": "2025-06-26",
+      "source_url": "https://www.reddit.com/r/googlephotos/comments/1lklsk2/classic_search_is_gone/",
+      "original_text": "Does anyone have a way to search for specific photos and or videos? I had renamed some of them with keywords to make it easier to find but it doesn't look like that will work anymore.",
+      "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+      "evidence_strength": "Low",
+      "retrieval_outcome": "Unknown",
+      "needs_human_review": true
+    },
+    {
+      "record_id": "REC_008",
+      "source": "Reddit",
+      "date": "2024-09-22",
+      "source_url": "https://www.reddit.com/r/googlephotos/comments/1fmvxd6/",
+      "original_text": "It has always been my godsend for finding specific photos from years gone by, thanks to the search function being so pinpoint using the littlest of terms. In recent months it now feels nearly impossible to find anything.",
+      "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+      "evidence_strength": "Low",
+      "retrieval_outcome": "Unknown",
+      "needs_human_review": true
+    },
+    {
+      "record_id": "REC_009",
+      "source": "Google Photos Community",
+      "date": "2024-11-20",
+      "source_url": "https://support.google.com/photos/thread/308953776/i-can%E2%80%99t-search-my-photos-up-like-i-used-to-before-google-photos-was-the-easiest-what-happened-jus?hl=en",
+      "original_text": "I will type in the most basic thing to search for a photo and it said not found.",
+      "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+      "evidence_strength": "Low",
+      "retrieval_outcome": "Not Found",
+      "needs_human_review": true
+    },
+    {
+      "record_id": "REC_010",
+      "source": "Google Photos Community",
+      "date": "2019-04-30",
+      "source_url": "https://support.google.com/photos/thread/5159882/pictures-keep-reloading-scrolling-to-top?hl=en",
+      "original_text": "It doesn't let me look at my older photos for long and makes me lose my place when I'm looking for something.",
+      "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+      "evidence_strength": "Low",
+      "retrieval_outcome": "Unknown",
+      "needs_human_review": true
+    },
+    {
+      "record_id": "REC_011",
+      "source": "Reddit",
+      "date": "2026-03-14",
+      "source_url": "https://www.reddit.com/r/googlephotos/comments/1rtnigs/why_has_the_search_function_stopped_working/",
+      "original_text": "I am the family photo archivalist and have over half a million photos spanning 60 years uploaded to Google Photos. So, I can't just scroll through to find what I want. Search for 'Sunfish' found nothing even though I have hundreds of close-up photos.",
+      "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+      "evidence_strength": "High",
+      "retrieval_outcome": "Not Found",
+      "needs_human_review": true
+    },
+    {
+      "record_id": "REC_012",
+      "source": "Reddit",
+      "date": "2026-03-02",
+      "source_url": "https://www.reddit.com/r/googlephotos/comments/1rihxp2/sorry_if_this_has_been_asked_a_hundred_times_but/",
+      "original_text": "I ask for 'yellow truck' and it finds 2 out of the 10 different days I had taken pictures of yellow trucks. I'll try different phrasing like 'pickup truck' and it'll add a few more trucks but also lose some of the yellow trucks it initially found.",
+      "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+      "evidence_strength": "High",
+      "retrieval_outcome": "Partially Found",
+      "needs_human_review": true
+    },
+    {
+      "record_id": "REC_013",
+      "source": "Reddit",
+      "date": "2025-11-12",
+      "source_url": "https://www.reddit.com/r/googlephotos/comments/1ov9y8d/google_photos_search_results/",
+      "original_text": "I've had a dog for 10 years. Now when I search for 'dog' I get a tiny subset of the photos I used to. I search for blowtorch and get eight results, none of which contains a blowtorch.",
+      "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+      "evidence_strength": "High",
+      "retrieval_outcome": "Partially Found",
+      "needs_human_review": true
+    },
+    {
+      "record_id": "REC_014",
+      "source": "Reddit",
+      "date": "2022-09-15",
+      "source_url": "https://www.reddit.com/r/googlephotos/comments/xenhgc/",
+      "original_text": "Using the same keyword searches now brings up nothing but screenshots that contain said keywords in text. I can still find the photo manually, but not with any keywords that formerly worked.",
+      "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+      "evidence_strength": "Medium",
+      "retrieval_outcome": "Unknown",
+      "needs_human_review": true
+    },
+    {
+      "record_id": "REC_016",
+      "source": "Google Photos Community",
+      "date": "2021-06-08",
+      "source_url": "https://support.google.com/photos/thread/112815088/how-can-i-search-for-a-specific-photo-in-google-photos-say-want-to-find-pic-of-last-summer-garden?hl=en",
+      "original_text": "I am looking to search a specific photo like train museum visit. It will make it easier for me to find the pic I am looking for instead of scrolling thru all.",
+      "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+      "evidence_strength": "Low",
+      "retrieval_outcome": "Unknown",
+      "needs_human_review": false
+    },
+    {
+      "record_id": "REC_017",
+      "source": "Reddit",
+      "date": "2021-12-10",
+      "source_url": "https://www.reddit.com/r/googlephotos/comments/rd8u2q/how_do_i_search_for_photos_by_exact_filename/",
+      "original_text": "I'm trying to find a photo by its exact filename. I tried several options but had no luck; the searches return all the photos taken on that date instead of the exact file.",
+      "primary_failure_stage": "F3 — Interpretation Gap",
+      "evidence_strength": "Medium",
+      "retrieval_outcome": "Not Found",
+      "needs_human_review": false
+    },
+    {
+      "record_id": "REC_018",
+      "source": "Google Photos Community",
+      "date": "2024-07-21",
+      "source_url": "https://support.google.com/photos/thread/286489095/how-do-i-get-google-photo-to-show-all-my-photos-chronologically-begining-with-the-most-recent-ones?hl=en",
+      "original_text": "Can't find photos that were taken and uploaded just today. I type today's date in the search and I bizarrely get random pictures from almost ten years ago.",
+      "primary_failure_stage": "F3 — Interpretation Gap",
+      "evidence_strength": "Medium",
+      "retrieval_outcome": "Not Found",
+      "needs_human_review": false
+    },
+    {
+      "record_id": "REC_019",
+      "source": "Google Photos Community",
+      "date": "2024-11-21",
+      "source_url": "https://support.google.com/photos/thread/309151160/i-tagged-the-video-but-when-i-search-using-the-exact-wording-photos-can-t-find-it?hl=en",
+      "original_text": "I recorded a video, tagged it in the info field for the purpose of being able to look it up later. When I use the exact phrase, Photos isn't able to locate anything. Eventually I'm able to locate it by digging for a long time.",
+      "primary_failure_stage": "F7 — Coverage / Indexing Gap",
+      "evidence_strength": "High",
+      "retrieval_outcome": "Found",
+      "needs_human_review": false
+    },
+    {
+      "record_id": "REC_020",
+      "source": "Google Photos Community",
+      "date": "2025-09-17",
+      "source_url": "https://support.google.com/photos/thread/373711674/how-do-i-use-classic-search-instead-of-ai?hl=en",
+      "original_text": "If I had written something on a sticky note 2 years ago and the only thing I could remember was that it was a yellow sticky note, I could search those words and the picture would pop right up. Now it usually tells me that it can't find anything even though I know the picture is there.",
+      "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+      "evidence_strength": "Medium",
+      "retrieval_outcome": "Not Found",
+      "needs_human_review": true
+    },
+    {
+      "record_id": "REC_021",
+      "source": "Google Photos Community",
+      "date": "2026-08-05",
+      "source_url": "https://support.google.com/photos/thread/457424484/cannot-suppress-automatic-thumbnail-sizing?hl=en",
+      "original_text": "It is very difficult to search specific photo in a very long list.",
+      "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+      "evidence_strength": "Low",
+      "retrieval_outcome": "Unknown",
+      "needs_human_review": true
+    },
+    {
+      "record_id": "REC_022",
+      "source": "Reddit",
+      "date": "2024-12-29",
+      "source_url": "https://www.reddit.com/r/googlephotos/comments/1hp4jkj/",
+      "original_text": "Once I find a photo that I was looking for, I usually want to browse other photos from that same event. I have to note the date/time, navigate out of search results, and scroll through tens of thousands of photos to the exact date/time.",
+      "primary_failure_stage": "F8 — Unknown / Insufficient Evidence",
+      "evidence_strength": "Medium",
+      "retrieval_outcome": "Found",
+      "needs_human_review": true
+    },
+    {
+      "record_id": "REC_024",
+      "source": "Google Photos Community",
+      "date": "2025-11-07",
+      "source_url": "https://support.google.com/photos/thread/385905876/unable-to-search-photos-by-description-in-google-photos?hl=en",
+      "original_text": "I added descriptions to several of my photos, but when I try to search using the words from those descriptions, the photos do not appear in the search results.",
+      "primary_failure_stage": "F7 — Coverage / Indexing Gap",
+      "evidence_strength": "High",
+      "retrieval_outcome": "Not Found",
+      "needs_human_review": false
+    }
+  ]
+}

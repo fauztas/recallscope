@@ -1,0 +1,21 @@
+# Python Environment & Virtual Environments
+venv/
+env/
+.venv/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
+desktop.ini

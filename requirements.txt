@@ -1,0 +1,5 @@
+# RecallScope Dependencies
+streamlit>=1.40.0
+pandas>=2.0.0
+python-dotenv>=1.0.0
+groq>=0.13.0
