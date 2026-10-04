@@ -62,7 +62,7 @@ with st.sidebar:
     discovery_section = "Research overview"
     if app_area == "Discovery Engine":
         discovery_section = st.radio("Explore", DISCOVERY_SECTIONS, key="discovery_section")
-        st.caption("Interim public-evidence corpus. Not all Google Photos users.")
+        st.caption("Public evidence and primary interviews stay on separate pages. They do not represent all Google Photos users.")
     else:
         st.caption("Build notes for the research pipeline. The evaluator view is the Discovery Engine.")
         with st.expander("Development status"):

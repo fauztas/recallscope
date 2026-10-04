@@ -1,0 +1,478 @@
+{
+  "source_name": "Observed retrieval sessions",
+  "sample_size": 5,
+  "research_question": "What does a person remember BEFORE searching for a vaguely remembered photo, what do they actually enter into Google Photos search, and where does retrieval break down?",
+  "sample_banner": "Small qualitative sample. Findings are directional and are not population prevalence.",
+  "method_statement": "Participants described what they remembered BEFORE opening Google Photos, then attempted the retrieval while thinking aloud.",
+  "separation_note": "These sessions are primary research. They are not rows in the public-evidence corpus, and they are not used by Ask the Evidence.",
+  "expression_rule": "A remembered clue counts as typed only when the words of a typed query express that clue. A later date browse, trip browse, or manual browse is listed as a fallback and is not treated as a typed query. Hedged words such as 'I think' and 'maybe' stay hedged.",
+  "recognition_rule": "A session is coded as Recognition Gap only when the target appears among plausible results and the participant has difficulty identifying it. A large result set is not coded as recognition failure.",
+  "indexing_rule": "A search that does not show the wanted photo does not establish that the photo is missing from the library.",
+  "clue_categories": [
+    "visual appearance",
+    "people / relationship",
+    "approximate time",
+    "place / location",
+    "object",
+    "situation / event",
+    "purpose / intent",
+    "social / emotional context",
+    "visible text",
+    "exact identifying information"
+  ],
+  "participants": [
+    {
+      "participant_id": "INT_001",
+      "name": "Aisha",
+      "age": 21,
+      "gender": "Female",
+      "occupation": "Student",
+      "retrieval_target": "Photo from a trip with cousins, sitting together at a café.",
+      "target_label_note": "The session label says cousins. Her unaided words say four of us. Cousins is not added to the remembered-clue list.",
+      "unaided_memory": "Okay, so there are four of us in the picture. We were sitting outside, I think. It was somewhere during our trip, maybe in Goa. There were plants around the café and I remember the table was kind of wooden. I was wearing a white top. I think it was taken in the evening because the lighting was kind of warm.\n\nI don't remember the date. I don't remember the café name. I don't even remember if I took the photo or someone else took it. I just remember what the picture looks like.",
+      "hardest_part": "The hardest part was that I remembered what the photo looked like, but I didn't remember any useful search words.\n\nLike, I knew there were four people, we were at a café, and it was during a trip, but I didn't know the café name or date. I also remembered things like the wooden table and the lighting, but I couldn't really search those things.\n\nI feel like my brain knows exactly which photo I mean, but Google Photos needs me to describe it using words.",
+      "remembered_clues": [
+        {"text": "Four people in the picture", "certainty": "stated", "categories": ["people / relationship", "visual appearance"], "in_typed_query": false},
+        {"text": "Sitting outside", "certainty": "hedged", "categories": ["place / location", "situation / event"], "in_typed_query": false, "hedge": "I think"},
+        {"text": "During a trip", "certainty": "stated", "categories": ["situation / event"], "in_typed_query": false},
+        {"text": "Maybe Goa", "certainty": "hedged", "categories": ["place / location"], "in_typed_query": true, "hedge": "maybe"},
+        {"text": "Plants around the café", "certainty": "stated", "categories": ["visual appearance", "object"], "in_typed_query": false},
+        {"text": "Wooden table", "certainty": "stated", "categories": ["visual appearance", "object"], "in_typed_query": false},
+        {"text": "White top", "certainty": "stated", "categories": ["visual appearance"], "in_typed_query": false},
+        {"text": "Evening with warm lighting", "certainty": "hedged", "categories": ["approximate time", "visual appearance"], "in_typed_query": false, "hedge": "I think"},
+        {"text": "Café setting", "certainty": "stated", "categories": ["place / location", "situation / event"], "in_typed_query": true}
+      ],
+      "forgotten_or_uncertain": [
+        "Date",
+        "Café name",
+        "Whether she took the photo or someone else took it",
+        "Goa, sitting outside, and evening lighting were each hedged"
+      ],
+      "search_sequence": [
+        {"order": 1, "action": "typed search", "query": "Goa", "reaction": "There's a lot of stuff here. Okay, I see beaches, hotels… Oh wait, there are so many photos."},
+        {"order": 2, "action": "typed search", "query": "café", "reaction": "Okay, now I'm getting random food pictures. That's not really helping."},
+        {"order": 3, "action": "typed search", "query": "Goa café", "reaction": "Hmm… I see some, but not the one. I think I might have to scroll forever."},
+        {"order": 4, "action": "considered, not recorded as a completed search", "query": "people, then pictures from the trip", "reaction": "Wait, maybe I can search 'people' and then look through the pictures from the trip. But there are so many."}
+      ],
+      "after_first_search": "She narrowed from Goa to café, then combined them as Goa café. Café returned what she called random food pictures. Goa café showed some photos, and she said they were not the one.",
+      "fallback": "She expected she might have to scroll for a long time, and she considered searching people and then looking through trip pictures. The session does not record that this browse was completed.",
+      "outcome": "Final outcome not recorded",
+      "outcome_note": "The notes do not record whether she found the photo, and they do not record that she stopped. That missing ending is not a failed retrieval. Whether the photo was absent from the library is unknown.",
+      "journey": [
+        {"stage": "Recall", "reading": "Partly shown", "note": "She described the scene and also said she does not remember the date, the café name, or who took the photo."},
+        {"stage": "Expression", "reading": "Shown in this session", "note": "She typed Goa and café. She said she could not search the wooden table, the lighting, and other details she remembered."},
+        {"stage": "Interpretation", "reading": "Partly shown", "note": "She said café returned random food pictures. That description covers this query, not every query."},
+        {"stage": "Candidate retrieval", "reading": "Shown as a broad set", "note": "Goa returned many photos, including beaches and hotels. The target was not identified in the results she described. Library absence is not established."},
+        {"stage": "Recognition", "reading": "Not shown as Recognition Gap", "note": "She could say the photos she saw were not the one. The session does not show the target on screen while she failed to identify it."},
+        {"stage": "Refinement", "reading": "Reformulation observed", "note": "She changed the query twice. After Goa café she said the photos she was looking at were not the one. The notes do not record a final outcome after that comment."},
+        {"stage": "Retrieval outcome", "reading": "Unknown", "note": "The notes do not record a final success or failure."}
+      ],
+      "behaviour_flags": {
+        "broad_first_search": true,
+        "query_reformulation": true,
+        "reported_large_result_set": true,
+        "relevant_but_broad_results": true,
+        "approximate_time_fallback": false,
+        "people_or_trip_route": "considered",
+        "manual_browsing": "anticipated",
+        "remembered_detail_not_typed": true,
+        "described_result_mismatch": true,
+        "recognition_gap_shown": false
+      }
+    },
+    {
+      "participant_id": "INT_002",
+      "name": "Rahul",
+      "age": 23,
+      "gender": "Male",
+      "occupation": "University student",
+      "retrieval_target": "Screenshot of a product/shoes he had considered purchasing.",
+      "target_label_note": "",
+      "unaided_memory": "It was a screenshot of a pair of shoes. I think they were black and white sneakers. I was comparing prices before buying them.\n\nI think I took the screenshot sometime last year. Maybe around October? I'm not completely sure.\n\nI remember the website had a white background and there was a price somewhere near the bottom. I think the shoes were around 30 or 40 rials, but honestly I'm not sure.\n\nI don't remember the brand. That's the problem.",
+      "hardest_part": "I think the hardest part was that I remembered visual details and context, but not the exact text.\n\nI remember the shoes, approximately how much they cost, and that I was comparing products. But I don't remember the website or brand, which would have made the search much easier.\n\nAlso, Google Photos has so many screenshots that even when I search something relevant, I still have to look through a lot of results.",
+      "remembered_clues": [
+        {"text": "Screenshot", "certainty": "stated", "categories": ["object", "visual appearance"], "in_typed_query": true},
+        {"text": "Pair of shoes", "certainty": "stated", "categories": ["object", "visual appearance"], "in_typed_query": true},
+        {"text": "Black and white sneakers", "certainty": "hedged", "categories": ["visual appearance"], "in_typed_query": false, "hedge": "I think", "expression_note": "The typed query black shoes uses black and shoes. White was not typed."},
+        {"text": "Comparing prices before buying", "certainty": "stated", "categories": ["situation / event", "purpose / intent"], "in_typed_query": false},
+        {"text": "Sometime last year, maybe October", "certainty": "hedged", "categories": ["approximate time"], "in_typed_query": false, "hedge": "I think / maybe", "expression_note": "He later attempted an approximate date. That attempt is a fallback, not a typed keyword."},
+        {"text": "White background on the website", "certainty": "stated", "categories": ["visual appearance"], "in_typed_query": false},
+        {"text": "Price near the bottom", "certainty": "stated", "categories": ["visible text", "visual appearance"], "in_typed_query": false},
+        {"text": "About 30 or 40 rials", "certainty": "hedged", "categories": ["visible text"], "in_typed_query": false, "hedge": "I think / not sure"}
+      ],
+      "forgotten_or_uncertain": [
+        "Brand",
+        "Website name",
+        "Exact price and exact text",
+        "October and last year were hedged",
+        "Black and white was hedged"
+      ],
+      "search_sequence": [
+        {"order": 1, "action": "typed search", "query": "shoes", "reaction": "Okay, there's actually a lot of shoe-related stuff here. Some actual photos, some screenshots…"},
+        {"order": 2, "action": "typed search", "query": "screenshots", "reaction": "Okay, there are literally hundreds."},
+        {"order": 3, "action": "typed search", "query": "black shoes", "reaction": "Yeah, now it's showing actual photos of shoes too. Not necessarily the screenshot."},
+        {"order": 4, "action": "approximate date attempt", "query": "October last year", "reaction": "Wow, that's going to take a while."}
+      ],
+      "after_first_search": "He moved from shoes to screenshots, then to black shoes. Screenshots returned what he called hundreds of results. Black shoes showed actual photos of shoes, which he said were not necessarily the screenshot. He then tried an approximate date.",
+      "fallback": "Approximate date around October last year. He said that would take a while. He also said he was starting to forget what he was looking for. Completed manual scrolling is not separately described.",
+      "memory_during_search": "I'm honestly starting to forget what I was looking for.",
+      "outcome": "Final outcome not recorded",
+      "outcome_note": "The notes do not record whether he found the screenshot. He said the volume of screenshots still left him looking through results. That is not a recorded failed retrieval.",
+      "journey": [
+        {"stage": "Recall", "reading": "Partly shown", "note": "He remembered the screenshot, the shoes, a price context, and a white background. Brand, website, exact text, and the date were missing or hedged."},
+        {"stage": "Expression", "reading": "Shown in this session", "note": "He typed shoes, screenshots, and black shoes. White, the price, the white background, and the purchase comparison were not typed."},
+        {"stage": "Interpretation", "reading": "Partly shown", "note": "He said black shoes showed actual photos of shoes, not necessarily the screenshot."},
+        {"stage": "Candidate retrieval", "reading": "Shown as a broad set", "note": "He described a lot of shoe-related results and hundreds of screenshots. That is his report of volume, not a recognition failure."},
+        {"stage": "Recognition", "reading": "Not shown as Recognition Gap", "note": "He distinguished actual shoe photos from the screenshot he wanted. The session does not show the target screenshot present but hard to identify."},
+        {"stage": "Refinement", "reading": "Reformulation observed", "note": "Three typed queries plus a date attempt were recorded. The notes do not say whether the screenshot was found after them."},
+        {"stage": "Retrieval outcome", "reading": "Unknown", "note": "The notes do not record a final success or failure. During the search he said he was starting to forget the target."}
+      ],
+      "behaviour_flags": {
+        "broad_first_search": true,
+        "query_reformulation": true,
+        "reported_large_result_set": true,
+        "relevant_but_broad_results": true,
+        "approximate_time_fallback": true,
+        "people_or_trip_route": "not observed",
+        "manual_browsing": "anticipated",
+        "remembered_detail_not_typed": true,
+        "described_result_mismatch": true,
+        "recognition_gap_shown": false
+      }
+    },
+    {
+      "participant_id": "INT_003",
+      "name": "Sara",
+      "age": 19,
+      "gender": "Female",
+      "occupation": "College student",
+      "retrieval_target": "Photo of herself sleeping in the back seat of a car during a road trip.",
+      "target_label_note": "She said a friend took the picture, and she also said she does not remember who took the photo. Both statements are kept.",
+      "unaided_memory": "Okay, so I'm sleeping in the back seat of the car. I think I'm wearing a grey hoodie. My friend took the picture without me knowing.\n\nThere was probably a blanket on me. I remember the car was moving because we were travelling somewhere.\n\nI think it was during a trip with my friends, but I don't remember where we were going. It could have been last year or the year before.\n\nI don't remember the date, location, or even who took the photo.",
+      "hardest_part": "The hardest part was that the most important thing I remember is the situation.\n\nLike, I remember 'my friend secretly took a picture of me sleeping in the car during a road trip.' But I don't know what Google Photos would call that.\n\nI couldn't search 'embarrassing photo my friend took while I was sleeping' because obviously that's not really a search category.\n\nI think that's why it was difficult.",
+      "remembered_clues": [
+        {"text": "Sleeping", "certainty": "stated", "categories": ["situation / event", "visual appearance"], "in_typed_query": true},
+        {"text": "Back seat", "certainty": "stated", "categories": ["place / location", "visual appearance"], "in_typed_query": false},
+        {"text": "Grey hoodie", "certainty": "hedged", "categories": ["visual appearance"], "in_typed_query": false, "hedge": "I think"},
+        {"text": "A friend took the picture without her knowing", "certainty": "stated", "categories": ["people / relationship", "social / emotional context", "situation / event"], "in_typed_query": false},
+        {"text": "Probably a blanket", "certainty": "hedged", "categories": ["object"], "in_typed_query": false, "hedge": "probably"},
+        {"text": "Car", "certainty": "stated", "categories": ["object", "place / location"], "in_typed_query": true},
+        {"text": "Car was moving / travelling", "certainty": "stated", "categories": ["situation / event"], "in_typed_query": false},
+        {"text": "Trip with friends", "certainty": "hedged", "categories": ["situation / event", "people / relationship"], "in_typed_query": false, "hedge": "I think", "expression_note": "She later tried looking at trips. That is a fallback, not a typed query."},
+        {"text": "Last year or the year before", "certainty": "hedged", "categories": ["approximate time"], "in_typed_query": false, "hedge": "could have been"}
+      ],
+      "forgotten_or_uncertain": [
+        "Where they were going",
+        "Date",
+        "Location",
+        "Who took the photo, alongside her statement that a friend took it",
+        "Grey hoodie, blanket, trip, and year were hedged"
+      ],
+      "search_sequence": [
+        {"order": 1, "action": "typed search", "query": "sleeping", "reaction": "Oh my God, there's actually a lot of random sleeping pictures."},
+        {"order": 2, "action": "typed search", "query": "car", "reaction": "Okay, this is showing me cars, but not necessarily people sleeping in cars."},
+        {"order": 3, "action": "typed search", "query": "person sleeping in car", "reaction": "Nope."},
+        {"order": 4, "action": "looking at trips", "query": "trips", "reaction": "Actually… I don't even remember which trip it was."},
+        {"order": 5, "action": "manual browsing", "query": "manual browsing", "reaction": "This is annoying because I can literally picture the photo in my head."}
+      ],
+      "after_first_search": "Sleeping returned many pictures she called random. Car showed cars rather than people sleeping in cars. Person sleeping in car received only 'Nope' in the record, with no description of that result list. She then tried trips and could not remember which trip.",
+      "fallback": "She tried looking at trips, then manually browsed. The result of the manual browse was not reported.",
+      "outcome": "Final outcome not recorded",
+      "outcome_note": "Nope does not describe whether the result list was empty, wrong, or dismissed. It does not establish an indexing failure.",
+      "journey": [
+        {"stage": "Recall", "reading": "Partly shown", "note": "She pictured the situation. Date, destination, and which person took the photo were not available. The friend statement and the who-took-it statement are both kept."},
+        {"stage": "Expression", "reading": "Partly shown", "note": "She typed sleeping, car, and person sleeping in car. She said the secret or embarrassing situation is not a search category. Back seat, hoodie, and blanket were not typed."},
+        {"stage": "Interpretation", "reading": "Partly shown", "note": "She said car showed cars, not people sleeping in cars."},
+        {"stage": "Candidate retrieval", "reading": "Mixed, and partly unknown", "note": "The first query produced many sleeping pictures. The third query is recorded only as Nope. The contents of that result list were not described."},
+        {"stage": "Recognition", "reading": "Not shown as Recognition Gap", "note": "The session does not show the target among lookalike photos while she failed to identify it."},
+        {"stage": "Refinement", "reading": "Reformulation observed", "note": "The queries became more specific. Trip browsing then stopped because she could not remember which trip. Manual browsing followed."},
+        {"stage": "Retrieval outcome", "reading": "Unknown", "note": "The manual browse has no reported result."}
+      ],
+      "behaviour_flags": {
+        "broad_first_search": true,
+        "query_reformulation": true,
+        "reported_large_result_set": true,
+        "relevant_but_broad_results": true,
+        "approximate_time_fallback": false,
+        "people_or_trip_route": "attempted",
+        "manual_browsing": "observed",
+        "remembered_detail_not_typed": true,
+        "described_result_mismatch": true,
+        "recognition_gap_shown": false
+      }
+    },
+    {
+      "participant_id": "INT_004",
+      "name": "Omar",
+      "age": 25,
+      "gender": "Male",
+      "occupation": "Working professional",
+      "retrieval_target": "Phone photo of a document he needed later.",
+      "target_label_note": "He said the photo might be from two years ago and also maybe 2024. Those statements are not reconciled.",
+      "unaided_memory": "It's basically a picture of a document. I remember there was a signature on it and some numbers. I think it was related to some registration or application.\n\nIt was probably taken in an office. I remember the paper was on a desk.\n\nI don't remember the exact document name. That's the issue.\n\nI might have taken it two years ago. Maybe 2024? I'm not sure.",
+      "hardest_part": "The hardest part was that I remembered the purpose of the photo, not really the content.\n\nI know I took it because I needed the document for an application. I remember there was a signature and some numbers.\n\nBut those aren't necessarily things I can search for.\n\nIf I knew the exact name of the document, it would be easy. But I don't. So I basically have to rely on date or manually scroll.",
+      "remembered_clues": [
+        {"text": "A picture of a document", "certainty": "stated", "categories": ["object"], "in_typed_query": true},
+        {"text": "A signature", "certainty": "stated", "categories": ["visual appearance"], "in_typed_query": false},
+        {"text": "Some numbers", "certainty": "stated", "categories": ["visible text"], "in_typed_query": false},
+        {"text": "Registration or application", "certainty": "hedged", "categories": ["purpose / intent", "situation / event"], "in_typed_query": false, "hedge": "I think"},
+        {"text": "Probably an office", "certainty": "hedged", "categories": ["place / location"], "in_typed_query": false, "hedge": "probably", "expression_note": "He considered the office and could not remember its name. Office was not a recorded search."},
+        {"text": "Paper", "certainty": "stated", "categories": ["object"], "in_typed_query": true},
+        {"text": "On a desk", "certainty": "stated", "categories": ["visual appearance", "place / location"], "in_typed_query": false},
+        {"text": "Maybe two years ago, maybe 2024", "certainty": "hedged", "categories": ["approximate time"], "in_typed_query": false, "hedge": "might / maybe", "expression_note": "He later attempted a date around 2024. That is a fallback, not a typed keyword."}
+      ],
+      "forgotten_or_uncertain": [
+        "Exact document name",
+        "Office name",
+        "Whether it was two years ago or 2024",
+        "Registration or application was hedged",
+        "Office was hedged"
+      ],
+      "search_sequence": [
+        {"order": 1, "action": "typed search", "query": "document", "reaction": "Okay, there's a lot."},
+        {"order": 2, "action": "typed search", "query": "paper", "reaction": "That's even worse."},
+        {"order": 3, "action": "considered, then corrected", "query": "documents and screenshots", "reaction": "Wait, it's not a screenshot. It's an actual photo."},
+        {"order": 4, "action": "approximate date attempt", "query": "around 2024", "reaction": "There's just too much."},
+        {"order": 5, "action": "considered, not searched", "query": "office", "reaction": "He considered the office, but he could not remember the office name."}
+      ],
+      "after_first_search": "Paper was worse than document in his words. He considered screenshots, then said it was an actual photo. A date around 2024 still looked like too much.",
+      "fallback": "He attempted an approximate date. He said he has to rely on date or manually scroll. The session does not separately describe a completed scroll. The office could not be searched because he did not remember its name.",
+      "outcome": "Final outcome not recorded",
+      "outcome_note": "Too much describes volume. It does not show that the document photo was present and hard to recognize, and it does not show that the photo was missing.",
+      "journey": [
+        {"stage": "Recall", "reading": "Partly shown", "note": "He remembered a document photo, a signature, some numbers, a likely office, and the purpose. The document name and the date were not exact."},
+        {"stage": "Expression", "reading": "Shown in this session", "note": "He typed document and paper. He said the signature, the numbers, and the purpose are not things he can search, and that the document name would have made it easy."},
+        {"stage": "Interpretation", "reading": "Not enough evidence", "note": "Paper was even worse in his judgment, but he did not describe what those results showed. His screenshot correction was his own realization."},
+        {"stage": "Candidate retrieval", "reading": "Shown as a broad set", "note": "He described a lot of results, and too much around 2024. Result contents were not described."},
+        {"stage": "Recognition", "reading": "Not shown as Recognition Gap", "note": "The session does not show the target document among similar photos while he failed to identify it."},
+        {"stage": "Refinement", "reading": "Reformulation observed", "note": "The second query was worse in his account. The date attempt remained too broad. The place fallback was blocked by the missing office name."},
+        {"stage": "Retrieval outcome", "reading": "Unknown", "note": "He described date or manual scrolling as what he would have to rely on. The notes do not record a final success or failure."}
+      ],
+      "behaviour_flags": {
+        "broad_first_search": true,
+        "query_reformulation": true,
+        "reported_large_result_set": true,
+        "relevant_but_broad_results": false,
+        "approximate_time_fallback": true,
+        "people_or_trip_route": "not observed",
+        "manual_browsing": "anticipated",
+        "remembered_detail_not_typed": true,
+        "described_result_mismatch": false,
+        "recognition_gap_shown": false
+      }
+    },
+    {
+      "participant_id": "INT_005",
+      "name": "Zainab",
+      "age": 22,
+      "gender": "Female",
+      "occupation": "University student",
+      "retrieval_target": "Photo of grandmother's birthday cake.",
+      "target_label_note": "The observed queries were birthday cake, grandmother, and chocolate cake. The phrase grandmother's birthday was not an observed typed query.",
+      "unaided_memory": "Okay, so it was a chocolate cake. I think there were strawberries on top. It had her name written on it, I think.\n\nIt was taken at home, probably in the evening. There were maybe six or seven people around the table.\n\nI remember the cake was on a white tablecloth. I think my cousin took the photo.\n\nI remember the photo itself really clearly, but I don't remember the exact date. I don't even remember which year it was for sure.",
+      "hardest_part": "The hardest part was that I remembered relationships and emotions, but those aren't really searchable.\n\nI remember it was my grandmother's birthday, I remember my cousin took it, and I remember everyone was sitting around the table.\n\nBut I don't know the exact date, location, or album. I also couldn't really use 'grandmother's birthday' as effectively as I thought I could.",
+      "remembered_clues": [
+        {"text": "Chocolate cake", "certainty": "stated", "categories": ["object", "visual appearance"], "in_typed_query": true},
+        {"text": "Strawberries on top", "certainty": "hedged", "categories": ["visual appearance", "object"], "in_typed_query": false, "hedge": "I think"},
+        {"text": "Her name written on the cake", "certainty": "hedged", "categories": ["visible text"], "in_typed_query": false, "hedge": "I think"},
+        {"text": "At home", "certainty": "stated", "categories": ["place / location"], "in_typed_query": false},
+        {"text": "Probably evening", "certainty": "hedged", "categories": ["approximate time"], "in_typed_query": false, "hedge": "probably"},
+        {"text": "Maybe six or seven people", "certainty": "hedged", "categories": ["people / relationship"], "in_typed_query": false, "hedge": "maybe"},
+        {"text": "White tablecloth", "certainty": "stated", "categories": ["visual appearance", "object"], "in_typed_query": false},
+        {"text": "Cousin took the photo", "certainty": "hedged", "categories": ["people / relationship"], "in_typed_query": false, "hedge": "I think"},
+        {"text": "Grandmother's birthday", "certainty": "stated", "categories": ["people / relationship", "situation / event", "social / emotional context"], "in_typed_query": false, "expression_note": "Grandmother and birthday cake were separate typed queries. The full relationship phrase was not the observed query."},
+        {"text": "Year not remembered for sure", "certainty": "hedged", "categories": ["approximate time"], "in_typed_query": false, "hedge": "2024 or 2023", "expression_note": "She considered searching by year and was unsure between 2024 and 2023."}
+      ],
+      "forgotten_or_uncertain": [
+        "Exact date",
+        "Which year",
+        "Location beyond home",
+        "Album",
+        "Strawberries, name on the cake, evening, number of people, and cousin were hedged"
+      ],
+      "search_sequence": [
+        {"order": 1, "action": "typed search", "query": "birthday cake", "reaction": "Okay, that's actually showing a lot of cakes."},
+        {"order": 2, "action": "typed search", "query": "grandmother", "reaction": "Hmm… I don't think Google knows who my grandmother is."},
+        {"order": 3, "action": "typed search", "query": "chocolate cake", "reaction": "Okay, now there's way too many."},
+        {"order": 4, "action": "approximate year considered", "query": "2024 or 2023", "reaction": "Maybe I'll search by year… I think it was 2024? Or 2023?"},
+        {"order": 5, "action": "manual browsing", "query": "", "reaction": ""}
+      ],
+      "after_first_search": "Birthday cake showed a lot of cakes. Grandmother did not work as a person lookup in her account. Chocolate cake produced what she called way too many results. She was unsure whether to try 2024 or 2023.",
+      "fallback": "She considered an approximate year, then manually browsed. The year was not settled, and the manual browse has no reported result.",
+      "outcome": "Final outcome not recorded",
+      "outcome_note": "Her statement that Google does not know her grandmother is her reading of that query. It does not establish how people search works.",
+      "journey": [
+        {"stage": "Recall", "reading": "Partly shown", "note": "She said the photo was clear in memory. Several details were hedged, and the date and year were not certain."},
+        {"stage": "Expression", "reading": "Shown in this session", "note": "She typed birthday cake, grandmother, and chocolate cake. Strawberries, the name on the cake, the tablecloth, home, evening, the cousin, and the people count were not typed."},
+        {"stage": "Interpretation", "reading": "Partly shown", "note": "She read the grandmother query as the product not knowing who her grandmother is. That is her account of the result."},
+        {"stage": "Candidate retrieval", "reading": "Shown as a broad set", "note": "She described a lot of cakes and then way too many. Volume is not coded here as recognition failure."},
+        {"stage": "Recognition", "reading": "Not shown as Recognition Gap", "note": "The session does not show the target cake present while she could not pick it out from similar cakes."},
+        {"stage": "Refinement", "reading": "Reformulation observed", "note": "A more specific cake query increased the number of results she reported. The year was uncertain, and manual browsing followed."},
+        {"stage": "Retrieval outcome", "reading": "Unknown", "note": "The notes do not record a final success or failure."}
+      ],
+      "behaviour_flags": {
+        "broad_first_search": true,
+        "query_reformulation": true,
+        "reported_large_result_set": true,
+        "relevant_but_broad_results": true,
+        "approximate_time_fallback": true,
+        "people_or_trip_route": "attempted",
+        "manual_browsing": "observed",
+        "remembered_detail_not_typed": true,
+        "described_result_mismatch": true,
+        "recognition_gap_shown": false
+      }
+    }
+  ],
+  "observations": [
+    {
+      "observation": "In 5 of 5 observed sessions, the first typed query was a short, broad word or phrase.",
+      "participant_ids": ["INT_001", "INT_002", "INT_003", "INT_004", "INT_005"],
+      "evidence": [
+        {"participant_id": "INT_001", "quote": "Goa"},
+        {"participant_id": "INT_002", "quote": "shoes"},
+        {"participant_id": "INT_003", "quote": "sleeping"},
+        {"participant_id": "INT_004", "quote": "document"},
+        {"participant_id": "INT_005", "quote": "birthday cake"}
+      ],
+      "supports": "Each session began with a general term rather than the full scene the participant had just described.",
+      "does_not_establish": "It does not establish that a more specific first query would have found the photo, or that this is how Google Photos users in general begin.",
+      "confidence": "High"
+    },
+    {
+      "observation": "In 5 of 5 observed sessions, the participant typed at least one further query after the first search.",
+      "participant_ids": ["INT_001", "INT_002", "INT_003", "INT_004", "INT_005"],
+      "evidence": [
+        {"participant_id": "INT_001", "quote": "Goa café"},
+        {"participant_id": "INT_002", "quote": "black shoes"},
+        {"participant_id": "INT_003", "quote": "person sleeping in car"},
+        {"participant_id": "INT_004", "quote": "paper"},
+        {"participant_id": "INT_005", "quote": "chocolate cake"}
+      ],
+      "supports": "Reformulation was observed. The sessions were not single-query attempts.",
+      "does_not_establish": "It does not establish that another wording available to the participant would have succeeded.",
+      "confidence": "High"
+    },
+    {
+      "observation": "In 5 of 5 observed sessions, at least one remembered visual, social, or purpose detail was absent from the typed queries.",
+      "participant_ids": ["INT_001", "INT_002", "INT_003", "INT_004", "INT_005"],
+      "evidence": [
+        {"participant_id": "INT_001", "quote": "I also remembered things like the wooden table and the lighting, but I couldn't really search those things."},
+        {"participant_id": "INT_002", "quote": "I remembered visual details and context, but not the exact text."},
+        {"participant_id": "INT_003", "quote": "I couldn't search 'embarrassing photo my friend took while I was sleeping' because obviously that's not really a search category."},
+        {"participant_id": "INT_004", "quote": "But those aren't necessarily things I can search for."},
+        {"participant_id": "INT_005", "quote": "I remembered relationships and emotions, but those aren't really searchable."}
+      ],
+      "supports": "Each participant described remembered information that did not become a typed query.",
+      "does_not_establish": "It does not establish that typing the omitted detail would have found the photo. It also does not establish expression as the only breakdown. The sessions did not systematically record final retrieval success, so this evidence cannot be used to claim that a typed query failed.",
+      "confidence": "High"
+    },
+    {
+      "observation": "In 5 of 5 observed sessions, the first query did not end the retrieval attempt; participants continued by reformulating the query or changing retrieval strategy.",
+      "participant_ids": ["INT_001", "INT_002", "INT_003", "INT_004", "INT_005"],
+      "evidence": [
+        {"participant_id": "INT_001", "quote": "café"},
+        {"participant_id": "INT_002", "quote": "screenshots"},
+        {"participant_id": "INT_003", "quote": "car"},
+        {"participant_id": "INT_004", "quote": "paper"},
+        {"participant_id": "INT_005", "quote": "grandmother"}
+      ],
+      "supports": "All five participants continued searching after their initial query, either by entering another query or changing retrieval strategy.",
+      "does_not_establish": "The sessions did not systematically record final retrieval success, so this evidence cannot be used to claim that 5 of 5 participants ultimately failed to find their target photo.",
+      "confidence": "High"
+    },
+    {
+      "observation": "In 5 of 5 observed sessions, the participant described at least one step as returning a large set of results.",
+      "participant_ids": ["INT_001", "INT_002", "INT_003", "INT_004", "INT_005"],
+      "evidence": [
+        {"participant_id": "INT_001", "quote": "Oh wait, there are so many photos."},
+        {"participant_id": "INT_002", "quote": "Okay, there are literally hundreds."},
+        {"participant_id": "INT_003", "quote": "there's actually a lot of random sleeping pictures."},
+        {"participant_id": "INT_004", "quote": "Okay, there's a lot."},
+        {"participant_id": "INT_005", "quote": "now there's way too many."}
+      ],
+      "supports": "Participant-reported volume, which this page calls candidate overload only in that limited sense.",
+      "does_not_establish": "It does not establish a counted threshold, a recognition failure, or an indexing failure. A large set is not evidence that the target was on screen and hard to identify.",
+      "confidence": "High"
+    },
+    {
+      "observation": "In 4 of 5 observed sessions, the participant described a result set that matched the query words in a broad way and missed the remembered situation.",
+      "participant_ids": ["INT_001", "INT_002", "INT_003", "INT_005"],
+      "evidence": [
+        {"participant_id": "INT_001", "quote": "I'm getting random food pictures."},
+        {"participant_id": "INT_002", "quote": "it's showing actual photos of shoes too. Not necessarily the screenshot."},
+        {"participant_id": "INT_003", "quote": "this is showing me cars, but not necessarily people sleeping in cars."},
+        {"participant_id": "INT_005", "quote": "I don't think Google knows who my grandmother is."}
+      ],
+      "supports": "These four participants described a mismatch between the remembered situation and the kind of result the words returned.",
+      "does_not_establish": "Omar is not included. He said the results were numerous, but he did not describe what they showed. These descriptions are participant accounts, not saved result lists.",
+      "confidence": "Medium"
+    },
+    {
+      "observation": "In 3 of 5 observed sessions, the participant attempted or considered an approximate date or year after keyword search.",
+      "participant_ids": ["INT_002", "INT_004", "INT_005"],
+      "evidence": [
+        {"participant_id": "INT_002", "quote": "Wow, that's going to take a while."},
+        {"participant_id": "INT_004", "quote": "There's just too much."},
+        {"participant_id": "INT_005", "quote": "Maybe I'll search by year… I think it was 2024? Or 2023?"}
+      ],
+      "supports": "Rahul, Omar, and Zainab moved toward time when names or exact details were unavailable.",
+      "does_not_establish": "Aisha and Sara did not use a date fallback. Zainab had not settled the year. The notes do not record whether those date or year attempts ended with the target photo, so they cannot be counted as failed finds.",
+      "confidence": "High"
+    },
+    {
+      "observation": "Explicit manual browsing was recorded in 2 of 5 observed sessions. In the other 3, scrolling was anticipated or described as necessary, without a completed browse in the record.",
+      "participant_ids": ["INT_001", "INT_002", "INT_003", "INT_004", "INT_005"],
+      "evidence": [
+        {"participant_id": "INT_003", "quote": "This is annoying because I can literally picture the photo in my head."},
+        {"participant_id": "INT_001", "quote": "I think I might have to scroll forever."},
+        {"participant_id": "INT_002", "quote": "Wow, that's going to take a while."},
+        {"participant_id": "INT_004", "quote": "So I basically have to rely on date or manually scroll."}
+      ],
+      "supports": "Sara and Zainab reached manual browsing. Aisha, Rahul, and Omar described a long browse as likely or necessary.",
+      "does_not_establish": "It does not establish that manual browsing found the photo, or that scrolling is the usual workaround outside these sessions.",
+      "confidence": "High"
+    },
+    {
+      "observation": "In 0 of 5 observed sessions does the record show a Recognition Gap: the target present among plausible results while the participant struggles to identify it.",
+      "participant_ids": [],
+      "evidence": [
+        {"participant_id": "INT_001", "quote": "I see some, but not the one."}
+      ],
+      "supports": "Aisha could reject photos she saw. Rejection of non-matches is not the same as failing to recognize the target.",
+      "does_not_establish": "It does not establish that recognition difficulty never occurs. The public-evidence corpus is a separate source and still contains its own recognition record.",
+      "confidence": "High"
+    },
+    {
+      "observation": "The session notes do not systematically record a final retrieval outcome for these 5 observed sessions.",
+      "participant_ids": ["INT_001", "INT_002", "INT_003", "INT_004", "INT_005"],
+      "evidence": [],
+      "supports": "The notes record searches, reactions, and later attempts. They do not record a closing success or failure for every participant.",
+      "does_not_establish": "The sessions did not systematically record final retrieval success, so this evidence cannot be used to claim that 5 of 5 participants ultimately failed to find their target photo.",
+      "confidence": "High"
+    }
+  ],
+  "limitations": [
+    "The sample is 5 observed sessions.",
+    "It is a small qualitative sample. Counts are directional and are not population prevalence.",
+    "4 of 5 participants are students or college or university students. 1 of 5 is a working professional.",
+    "The stated ages are 19, 21, 22, 23, and 25.",
+    "Participants were recruited for these sessions. The sample is not a population draw.",
+    "Each person looked for a different kind of photo, so task difficulty is not the same across sessions.",
+    "These interviews cannot establish population prevalence.",
+    "Observed behaviour may be affected by being watched and by thinking aloud.",
+    "The result lists were not saved. Participant descriptions of results are not a screenshot of the screen.",
+    "The sessions did not systematically record final retrieval success or failure. An unrecorded find is not a failed retrieval.",
+    "Findings from these sessions still need triangulation with a survey and with the separate public-evidence corpus.",
+    "This page does not select a product solution, a target segment, or a final root cause."
+  ],
+  "ambiguous_points": [
+    "Aisha said she might have to scroll forever, and she considered a people or trip browse. The session does not record that browse as completed.",
+    "Sara said a friend took the picture and also said she does not remember who took the photo. The session does not resolve which friend, or whether those statements conflict.",
+    "Sara's third query is recorded only as Nope. The result list was not described.",
+    "Rahul said he was starting to forget the target while searching. That is a comment during the session, not a measured memory loss.",
+    "Omar gave both two years ago and maybe 2024. Zainab was unsure between 2024 and 2023. The sessions do not settle those dates.",
+    "Zainab said she could not use grandmother's birthday as effectively as she expected. The observed typed query was grandmother, not that full phrase.",
+    "No session records a final stop or whether the photo was found. Gave Up and Found are both unsupported, and an unrecorded ending is not a failed retrieval."
+  ]
+}

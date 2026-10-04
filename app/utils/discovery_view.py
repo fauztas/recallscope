@@ -13,6 +13,7 @@ import streamlit as st
 from app.utils.ask_evidence_view import render_ask_evidence
 from app.utils.challenge_insight_view import render_challenge_insight
 from app.utils.quality_view import render_quality_integrity
+from app.utils.primary_research_view import render_primary_research
 from app.utils.discovery_data import (
     INTERIM_CORPUS_LABEL,
     SHARE_LABEL,
@@ -25,6 +26,7 @@ from app.utils.discovery_data import (
 
 DISCOVERY_SECTIONS = [
     "Research overview",
+    "Primary research",
     "Contradictions and gaps",
     "Failure explorer",
     "Memory and behaviour",
@@ -97,6 +99,8 @@ def render_discovery(section: str) -> None:
         _hero()
         _how_ai_is_used()
         _overview(records, analysis)
+    elif section == "Primary research":
+        render_primary_research()
     else:
         st.caption("RecallScope · Interim public-evidence corpus — not representative of all Google Photos users")
         if section == "Contradictions and gaps":
@@ -138,6 +142,7 @@ def _hero() -> None:
             steps.append('<div class="rs-arrow">→</div>')
     st.markdown(f'<div class="rs-flow">{"".join(steps)}</div>', unsafe_allow_html=True)
     st.caption("This path describes the saved research workflow. It does not mean the posts represent all Google Photos users.")
+    st.info("Five observed interviews are on Primary research. They are kept separate from the public-evidence counts on this page.")
 
 
 def _how_ai_is_used() -> None:
@@ -499,8 +504,8 @@ def _methodology(analysis: Dict[str, Any]) -> None:
     for limitation in analysis["research_limitations"]:
         st.markdown(f"- {limitation}")
     st.markdown("- AI classifications are interpretations of public posts, even after the quality audit.")
-    st.markdown("- Primary interviews or a survey are still required before any finding is treated as confirmed.")
-    st.markdown("- Interviews are still needed to investigate what a person remembered before they formed a search.")
+    st.markdown("- Five observed interviews are reported on Primary research. They do not confirm the public-evidence findings, and they are not population prevalence.")
+    st.markdown("- Public posts still do not show everything a person remembered before they searched. Those interviews remain a separate sample.")
     st.markdown("- This interface does not recommend a product solution.")
     _how_ai_is_used()
 

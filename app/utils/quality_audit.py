@@ -394,6 +394,7 @@ def _check_claims(analysis: Dict[str, Any]) -> Dict[str, Any]:
     _walk_findings(analysis, "", finding_texts)
     surfaces = [
         project_root() / "app" / "utils" / "discovery_view.py",
+        project_root() / "app" / "utils" / "primary_research_view.py",
         project_root() / "app" / "utils" / "ask_evidence_view.py",
         project_root() / "app" / "utils" / "challenge_insight_view.py",
         project_root() / "app" / "main.py",
